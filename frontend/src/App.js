@@ -1,9 +1,13 @@
 import React from 'react'
+import Routes from './routes'
 
-function App () {
+import GlobalStyles from './styles/Global'
+
+const App = () => {
   return (
     <>
-
+      <GlobalStyles />
+      <Routes />
     </>
   )
 }
