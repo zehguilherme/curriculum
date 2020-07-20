@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+/* eslint-disable import/prefer-default-export */
+import styled from 'styled-components';
 
 export const StylesMainContainer = styled.div`
   display: flex;
@@ -45,6 +46,12 @@ export const StylesMainContainer = styled.div`
     margin-bottom: 20px;
   }
 
+  .information .text .nationality-age-others i {
+    font-size: 22px;
+    margin-right: 9px;
+    color: #f7941b;
+  }
+
   .information .text .phone {
     display: flex;
     width: 100%;
@@ -65,7 +72,7 @@ export const StylesMainContainer = styled.div`
 
   .information .text .phone .cellphone a:hover,
   .information .text .phone .landline a:hover {
-    text-decoration: underline;
+    color: gray;
   }
 
   .information .text .address {
@@ -83,15 +90,16 @@ export const StylesMainContainer = styled.div`
   .information .text .address a {
     color: black;
     text-align: justify;
+    line-height: 19px;
   }
 
   .information .text .address a:hover {
-    text-decoration: underline;
+    color: gray;
   }
 
-  .information .text > p {
+  .information .text p {
     text-align: justify;
-    font-size: 17px;
-    line-height: 15px;
+    line-height: 18px;
+    font-weight: 600;
   }
-`
+`;
