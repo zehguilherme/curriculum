@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+/* eslint-disable import/prefer-default-export */
+import styled from 'styled-components';
 
 export const StylesEducation = styled.div`
   display: flex;
@@ -12,7 +13,7 @@ export const StylesEducation = styled.div`
   h2 {
     color: #312cec;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 22px;
   }
 
   img {
@@ -42,7 +43,7 @@ export const StylesEducation = styled.div`
 
   .unisagrado .information a {
     font-size: 18px;
-    color: blue;
+    color: #4e4cec;
   }
 
   .unisagrado .information .course {
@@ -54,4 +55,4 @@ export const StylesEducation = styled.div`
   .unisagrado .information .years {
     font-size: 17px;
   }
-`
+`;
