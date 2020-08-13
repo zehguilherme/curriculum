@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+/* eslint-disable import/prefer-default-export */
+import styled from 'styled-components';
 
 export const StylesProfessionalExperience = styled.div`
   display: flex;
@@ -10,6 +11,7 @@ export const StylesProfessionalExperience = styled.div`
 
   h2 {
     color: #312cec;
+    font-size: 22px;
     margin-bottom: 35px;
   }
 
@@ -45,8 +47,34 @@ export const StylesProfessionalExperience = styled.div`
     margin-bottom: 20px;
   }
 
-  .abc71 .information p {
+  .abc71 .information h3 a {
+    font-size: 18px;
+    color: #4e4cec;
+  }
+
+  .abc71 .information h3 a:hover {
+    color: #9999ef;
+  }
+
+  .abc71 .information .position {
     margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .abc71 .information .date {
+    font-size: 17px;
+  }
+
+  /* Divider */
+  .divider {
+    margin-bottom: 25px;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    content: "";
+    background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
   }
 
   /* Speksciences */
@@ -72,8 +100,22 @@ export const StylesProfessionalExperience = styled.div`
     margin-bottom: 20px;
   }
 
-  .speksciences .information p {
+  .speksciences .information h3 a {
+    font-size: 18px;
+    color: #4e4cec;
+  }
+
+  .speksciences .information h3 a:hover {
+    color: #9999ef;
+  }
+
+  .speksciences .information .position {
     margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .speksciences .information .date {
+    font-size: 17px;
   }
 
   /* TV UNESP */
@@ -98,7 +140,21 @@ export const StylesProfessionalExperience = styled.div`
     margin-bottom: 20px;
   }
 
-  .tv-unesp p {
-    margin-bottom: 10px;
+  .tv-unesp .information h3 a {
+    font-size: 18px;
+    color: #4e4cec;
   }
-`
+
+  .tv-unesp .information h3 a:hover {
+    color: #9999ef;
+  }
+
+  .tv-unesp .information .position {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .tv-unesp .information .date {
+    font-size: 17px;
+  }
+`;
