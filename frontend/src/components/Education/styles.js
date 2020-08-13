@@ -46,6 +46,10 @@ export const StylesEducation = styled.div`
     color: #4e4cec;
   }
 
+  .unisagrado .information a:hover {
+    color: #9999ef;
+  }
+
   .unisagrado .information .course {
     margin-top: 20px;
     margin-bottom: 10px;
