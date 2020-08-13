@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+/* eslint-disable import/prefer-default-export */
+import styled from 'styled-components';
 
 export const StylesFooter = styled.footer`
   box-shadow: 2px 2px 2px 2px #aaaaaa;
@@ -38,4 +39,4 @@ export const StylesFooter = styled.footer`
   color: #2CA5E0;
   }
 
-`
+`;
