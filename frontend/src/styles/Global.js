@@ -1,11 +1,8 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
 
-  * {
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-    font-family: 'Roboto', sans-serif;
-  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
   html,
   body,
@@ -95,6 +92,7 @@ const GlobalStyles = createGlobalStyle`
     font: inherit;
     vertical-align: baseline;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
   }
   /* HTML5 display-role reset for older browsers */
   article,
@@ -132,6 +130,6 @@ const GlobalStyles = createGlobalStyle`
     border-collapse: collapse;
     border-spacing: 0;
   }
-`
+`;
 
 export default GlobalStyles;
