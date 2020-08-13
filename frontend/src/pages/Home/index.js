@@ -19,11 +19,9 @@ export default function Home () {
 
         <ProfessionalExperience />
 
-        <div className="knowledge-qualifications">
-          <Knowledge />
+        <Knowledge />
 
-          <QualificationsOthers />
-        </div>
+        <QualificationsOthers />
 
         <Footer />
 
