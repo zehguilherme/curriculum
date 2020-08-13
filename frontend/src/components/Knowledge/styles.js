@@ -1,16 +1,17 @@
-import styled from 'styled-components'
+/* eslint-disable import/prefer-default-export */
+import styled from 'styled-components';
 
 export const StylesKnowledge = styled.div`
   display: flex;
   flex-direction: column;
   padding: 30px 50px;
-  box-shadow: 2px 2px 2px 2px #aaaaaa;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
   border-radius: 10px;
   margin: 60px;
 
   h2 {
     color: #312cec;
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .grid {
@@ -26,32 +27,16 @@ export const StylesKnowledge = styled.div`
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
 
     transition: opacity 0.8s;
   }
 
-  .grid .card:hover {
-    i {
-      display: none;
-    }
-
-    .information {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-
   .grid .card i {
     font-size: 95px;
-  }
-
-  .grid .card .information {
-    display: none;
   }
 
   .grid .pascal img {
@@ -71,4 +56,4 @@ export const StylesKnowledge = styled.div`
     font-size: 20px;
     font-weight: 700;
   }
-`
+`;
