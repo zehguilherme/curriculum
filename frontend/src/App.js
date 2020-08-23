@@ -1,15 +1,16 @@
-import React from 'react'
-import Routes from './routes'
+import React from 'react';
+import Routes from './routes';
 
-import GlobalStyles from './styles/Global'
+import ScrollBackButton from './components/ScrollBackButton';
 
-const App = () => {
-  return (
-    <>
-      <GlobalStyles />
-      <Routes />
-    </>
-  )
-}
+import GlobalStyles from './styles/Global';
 
-export default App
+const App = () => (
+  <>
+    <GlobalStyles />
+    <ScrollBackButton />
+    <Routes />
+  </>
+);
+
+export default App;
