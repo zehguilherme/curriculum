@@ -9,7 +9,7 @@ const ContainerEducation = () => (
     <h2>Formação</h2>
 
     <div className="unisagrado">
-      <img src={unisagradoLogo} alt="Unisagrado" />
+      <img src={unisagradoLogo} alt="Unisagrado" className="unisagrado-img" />
 
       <div className="information">
         <h3>
@@ -18,7 +18,7 @@ const ContainerEducation = () => (
             rel="noopener noreferrer"
             href="https://unisagrado.edu.br/"
           >
-            Centro Universitário Sagrado Coração - Unisagrado
+            Unisagrado
           </a>
         </h3>
 
