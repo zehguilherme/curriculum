@@ -16,6 +16,24 @@ export const Container = styled.div`
   z-index: 1;
   cursor: pointer;
 
+  :hover{
+    background: #7d7bed;
+  }
+
+  @media(max-width: 810px){
+    bottom: 145px;
+  }
+
+  @media(max-width: 650px){
+    bottom: 88px;
+    right: 2%;
+  }
+
+  @media(max-width: 610px){
+    bottom: 241px;
+    right: 2%;
+  }
+
   .icon {
     height: 40px;
     width: auto;
