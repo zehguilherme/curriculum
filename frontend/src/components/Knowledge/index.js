@@ -4,7 +4,7 @@ import { StylesKnowledge } from './styles';
 
 import blenderLogo from '../../assets/blender-logo.svg';
 import svnLogo from '../../assets/svn-logo.png';
-import pascalLogo from '../../assets/pascal-logo.png';
+import pascalLogo from '../../assets/pascal-logo.svg';
 
 const ContainerKnowledge = () => (
   <StylesKnowledge>
@@ -71,7 +71,7 @@ const ContainerKnowledge = () => (
         <i className="devicon-cplusplus-line-wordmark colored" />
       </div>
 
-      <div className="english">
+      <div className="english card">
         <h3>Inglês técnico</h3>
       </div>
     </div>

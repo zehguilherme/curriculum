@@ -5,26 +5,41 @@ export const StylesKnowledge = styled.div`
   display: flex;
   flex-direction: column;
   padding: 30px 50px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 10px;
-  margin: 60px;
+  margin: 6.0rem;
+
+  @media(max-width: 650px){
+    margin: 3.0rem 3.0rem;
+  }
+
+  @media(max-width: 425px){
+    align-items: center;
+  }
 
   h2 {
     color: #312cec;
-    font-size: 22px;
+    font-size: 2.2rem;
+
+    @media(max-width: 354px){
+      font-size: 2.1rem;
+    }
   }
 
   .grid {
     margin-top: 30px;
     margin-bottom: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(192.5px, 1fr));
     grid-gap: 12px;
+
+    @media (min-width: 426px) and (max-width: 556px){
+      grid-auto-columns: repeat(auto-fit, max(192.5px));
+    }
   }
 
   .grid .card {
-    height: 100%;
+    height: 120px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -36,24 +51,28 @@ export const StylesKnowledge = styled.div`
   }
 
   .grid .card i {
-    font-size: 95px;
+    font-size: 9.5rem;
   }
 
+  /* Pascal */
   .grid .pascal img {
     height: 96px;
   }
 
+  /* Blender */
   .grid .blender img {
-    height: 120px;
-    width: 120px;
+    width: 160px;
+    height: auto;
   }
 
+  /* SVN */
   .grid .svn img {
     height: 23px;
   }
 
+  /* English */
   .grid .english h3 {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
   }
 `;
