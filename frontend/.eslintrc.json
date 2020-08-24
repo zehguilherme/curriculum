@@ -13,11 +13,11 @@
   },
   "plugins": ["react"],
   "rules": {
-    "semi": "error",
+    "semi": ["error", "always"],
     "space-before-function-paren": "off",
     "linebreak-style": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "max-len": ["error", { "code": 100 }],
+    "max-len": ["error", { "code": 110 }],
     "comma-style": ["error", "first"]
   }
 }

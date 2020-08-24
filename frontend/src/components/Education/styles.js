@@ -4,16 +4,31 @@ import styled from 'styled-components';
 export const StylesEducation = styled.div`
   display: flex;
   flex-direction: column;
-  max-height: 100%;
-  margin: 60px 60px;
-  padding: 30px 50px;
-  box-shadow: 2px 2px 2px 2px #aaaaaa;
+  margin: 6rem;
+  padding: 3rem 5rem;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 10px;
+
+  @media(max-width: 353px){
+    padding: 3.0rem 3.0rem
+  }
+
+  @media(max-width: 650px){
+    margin: 3.0rem 3.0rem;
+  }
+
+  @media(max-width: 425px){
+    align-items: center;
+  }
 
   h2 {
     color: #312cec;
     margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 2.2rem;
+
+    @media(max-width: 354px){
+      font-size: 2.1rem;
+    }
   }
 
   img {
@@ -29,20 +44,33 @@ export const StylesEducation = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media(max-width: 550px){
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
-  img {
-    width: 179px;
+  .unisagrado-img {
+    width: 100%;
+    height: auto;
+    max-width: 179px;
   }
 
   .unisagrado .information {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
+    @media(max-width: 550px){
+      align-items: center;
+      justify-content: center;
+    }
   }
 
   .unisagrado .information a {
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #4e4cec;
   }
 
@@ -53,10 +81,10 @@ export const StylesEducation = styled.div`
   .unisagrado .information .course {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 
   .unisagrado .information .years {
-    font-size: 17px;
+    font-size: 1.7rem;
   }
 `;

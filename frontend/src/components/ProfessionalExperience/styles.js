@@ -4,15 +4,31 @@ import styled from 'styled-components';
 export const StylesProfessionalExperience = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 30px 50px;
-  box-shadow: 2px 2px 2px 2px #aaaaaa;
+  padding: 3rem 5rem;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 10px;
-  margin: 60px;
+  margin: 6.0rem;
+
+  @media(max-width: 650px){
+    margin: 3.0rem 3.0rem;
+  }
+
+  @media(max-width: 480px){
+    padding: 3rem;
+  }
 
   h2 {
     color: #312cec;
-    font-size: 22px;
+    font-size: 2.2rem;
     margin-bottom: 35px;
+
+    @media(max-width: 425px){
+      text-align: center;
+    }
+
+    @media(max-width: 354px){
+      font-size: 2.1rem;
+    }
   }
 
   img {
@@ -24,137 +40,85 @@ export const StylesProfessionalExperience = styled.div`
     transform: scale(1.2);
   }
 
-  /* ABC71 */
-  .abc71 {
+  .item {
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 2rem;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media(max-width: 875px){
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  .item:not(:last-child){
     margin-bottom: 25px;
   }
 
+  .item .information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    @media(max-width: 875px){
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .item .information h3 {
+    margin-bottom: 20px;
+  }
+
+  .item .information h3 a {
+    font-size: 1.8rem;
+    color: #4e4cec;
+  }
+
+  .item .information h3 a:hover {
+    color: #9999ef;
+  }
+
+  .item .information .position {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+  }
+
+  .item .information .date {
+    font-size: 1.7rem;
+  }
+
+  /* ABC71 */
   .abc71 img {
     width: 148px;
     height: auto;
-  }
 
-  .abc71 .information {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-
-  .abc71 .information h3 {
-    margin-bottom: 20px;
-  }
-
-  .abc71 .information h3 a {
-    font-size: 18px;
-    color: #4e4cec;
-  }
-
-  .abc71 .information h3 a:hover {
-    color: #9999ef;
-  }
-
-  .abc71 .information .position {
-    margin-bottom: 10px;
-    font-size: 18px;
-  }
-
-  .abc71 .information .date {
-    font-size: 17px;
-  }
-
-  /* Divider */
-  .divider {
-    margin-bottom: 25px;
-    top: 0;
-    left: 5%;
-    right: 5%;
-    width: 90%;
-    height: 1px;
-    content: "";
-    background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+    @media(max-width: 875px){
+      margin-bottom: 2.5rem;
+    }
   }
 
   /* Speksciences */
-  .speksciences {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 25px;
-  }
-
   .speksciences img {
     width: 95px;
     height: auto;
-  }
 
-  .speksciences .information {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-
-  .speksciences .information h3 {
-    margin-bottom: 20px;
-  }
-
-  .speksciences .information h3 a {
-    font-size: 18px;
-    color: #4e4cec;
-  }
-
-  .speksciences .information h3 a:hover {
-    color: #9999ef;
-  }
-
-  .speksciences .information .position {
-    margin-bottom: 10px;
-    font-size: 18px;
-  }
-
-  .speksciences .information .date {
-    font-size: 17px;
+    @media(max-width: 875px){
+      margin-bottom: 2.5rem;
+    }
   }
 
   /* TV UNESP */
-  .tv-unesp {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
   .tv-unesp img {
     width: 95px;
     height: auto;
-  }
 
-  .tv-unesp .information {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-
-  .tv-unesp .information h3 {
-    margin-bottom: 20px;
-  }
-
-  .tv-unesp .information h3 a {
-    font-size: 18px;
-    color: #4e4cec;
-  }
-
-  .tv-unesp .information h3 a:hover {
-    color: #9999ef;
-  }
-
-  .tv-unesp .information .position {
-    margin-bottom: 10px;
-    font-size: 18px;
-  }
-
-  .tv-unesp .information .date {
-    font-size: 17px;
+    @media(max-width: 875px){
+      margin-bottom: 2.5rem;
+    }
   }
 `;

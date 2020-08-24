@@ -2,10 +2,17 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap');
 
-  html,
-  body,
+  html {
+    font-size: 62.5%; /* every 1rem will be considered 10px */
+  }
+
+  body {
+    font-size: 1.6rem;
+    margin: 0 !important;
+  }
+
   div,
   span,
   applet,
@@ -92,8 +99,9 @@ const GlobalStyles = createGlobalStyle`
     font: inherit;
     vertical-align: baseline;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
   }
+
   /* HTML5 display-role reset for older browsers */
   article,
   aside,

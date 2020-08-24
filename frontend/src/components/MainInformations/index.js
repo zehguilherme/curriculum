@@ -36,12 +36,12 @@ const ContainerMain = () => {
 
   useEffect(() => {
     ageCalculate();
-  }, []);
+  }, [age]);
 
   return (
     <StylesMainContainer>
       <div className="information">
-        <img src={profileImg} alt="José Guilherme" className="picture" />
+        <img src={profileImg} alt="José Guilherme" />
 
         <div className="text">
           <h1>José Guilherme Paro Monteiro Tomaine</h1>

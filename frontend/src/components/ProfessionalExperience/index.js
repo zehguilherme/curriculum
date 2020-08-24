@@ -10,7 +10,7 @@ const ContainerProfessionalExperience = () => (
   <StylesProfessionalExperience>
     <h2>Experiência Profissional</h2>
 
-    <div className="abc71">
+    <div className="abc71 item">
       <img src={abc71Logo} alt="ABC71" />
       <div className="information">
         <h3>
@@ -19,17 +19,15 @@ const ContainerProfessionalExperience = () => (
             rel="noopener noreferrer"
             href="https://www.abc71.com.br/"
           >
-            ABC71 - Soluções em Informática S/A
+            ABC71 Sistemas de Gestão para Indústrias
           </a>
         </h3>
         <p className="position">Estágio - Desenvolvedor C++</p>
-        <p className="date">05/11/18 à 15/12/19</p>
+        <p className="date">05/11/18 · 15/12/19</p>
       </div>
     </div>
 
-    <div className="divider" />
-
-    <div className="speksciences">
+    <div className="speksciences item">
       <img src={speksciencesLogo} alt="SpekSciences" />
       <div className="information">
         <h3>
@@ -42,13 +40,11 @@ const ContainerProfessionalExperience = () => (
           </a>
         </h3>
         <p className="position">Estágio - Desenvolvedor web</p>
-        <p className="date">01/04/19 à 31/05/19</p>
+        <p className="date">01/04/19 · 31/05/19</p>
       </div>
     </div>
 
-    <div className="divider" />
-
-    <div className="tv-unesp">
+    <div className="tv-unesp item">
       <img src={tvUnespLogo} alt="TV Unesp" />
       <div className="information">
         <h3>
@@ -61,7 +57,7 @@ const ContainerProfessionalExperience = () => (
           </a>
         </h3>
         <p className="position">Estágio - Suporte técnico</p>
-        <p className="date">10/09/18 à 17/10/18</p>
+        <p className="date">10/09/18 · 17/10/18</p>
       </div>
     </div>
   </StylesProfessionalExperience>
