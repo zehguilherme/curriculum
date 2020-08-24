@@ -2,16 +2,24 @@
 import styled from 'styled-components';
 
 export const StylesFooter = styled.footer`
-  box-shadow: 2px 2px 2px 2px #aaaaaa;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 10px;
   display: flex;
-  margin: 60px 60px auto 60px;
+  margin: 6rem 6rem auto 6rem;
   justify-content: space-between;
-  padding: 20px;
+  padding: 2rem;
+
+  @media(max-width: 650px){
+    margin: 3.0rem 3.0rem auto 3.0rem;
+  }
 
   a i {
     font-size: 35px;
     color: gray;
+
+    @media(max-width: 360px){
+      font-size: 30px;
+    }
   }
 
   /* Email */
