@@ -4,18 +4,113 @@ body {
 
 .home-container {
   background-color: #4c7ceb;
-  height: 100vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-container > footer {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container footer .footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.home-container footer .footer-container p {
+  color: #eeeeee;
+  font-weight: 600;
+  line-height: 2.3rem;
+}
+
+.home-container footer .footer-container p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.home-container footer .footer-container p a {
+  color: #10009e;
+}
+
+.home-container footer .footer-container p a:hover {
+  color: #4e4a74;
 }
 
 .curriculum-container {
   background-color: #f9fafa;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
   border-radius: 10px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  max-width: 1148px;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin: 6rem auto 0 auto;
+}
+
+@media (max-width: 1766px) {
+  .curriculum-container {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1516px) and (max-width: 1766px) {
+  .curriculum-container {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1329px) and (max-width: 1516px) {
+  .curriculum-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1329px) {
+  .curriculum-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 666px) {
+  .curriculum-container {
+    width: 95%;
+    margin: 3rem auto 0 auto;
+  }
+}
+
+@media (max-width: 650px) {
+  .curriculum-container {
+    width: 95%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 610px) {
+  .curriculum-container {
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 594px) {
+  .curriculum-container {
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+  }
 }
