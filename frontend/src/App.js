@@ -7,9 +7,9 @@ import GlobalStyles from './styles/Global';
 
 const App = () => (
   <>
-    <GlobalStyles />
     <ScrollBackButton />
     <Routes />
+    <GlobalStyles />
   </>
 );
 
