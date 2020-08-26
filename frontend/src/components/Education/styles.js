@@ -31,15 +31,6 @@ export const StylesEducation = styled.div`
     }
   }
 
-  img {
-    object-fit: cover;
-    transition: transform 500ms;
-  }
-
-  img:hover {
-    transform: scale(1.2);
-  }
-
   .unisagrado {
     display: flex;
     align-items: center;
