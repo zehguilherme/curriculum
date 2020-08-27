@@ -2,6 +2,8 @@ import React from 'react';
 
 import { StylesQualificationsOthers } from './styles';
 
+import Item from './Components/Item';
+
 import rocketseatLogo from '../../assets/rocketseat-logo.png';
 import aluraLogo from '../../assets/alura-logo.png';
 import ezdevsLogo from '../../assets/ezdevs.logo.png';
@@ -18,298 +20,133 @@ const ContainerQualificationsOthers = () => (
   <StylesQualificationsOthers>
     <h2>Qualificações e outras atividades</h2>
 
-    <div className="rocketseat item">
-      <img src={rocketseatLogo} alt="Rocketseat" />
+    <Item
+      header2Classname="rocketseat-h2"
+      logo={rocketseatLogo}
+      alt="Rocketseat"
+      name="Rocketseat"
+      eventName="Next Level Week 2 - Aplicação “Proffy”"
+      date="03/08/20 · 09/08/20"
+      githubUrl="https://github.com/zehguilherme/next-level-week-2"
+    />
 
-      <div className="information">
-        <h2>Rocketseat</h2>
-        <h3>Next Level Week 2 - Aplicação “Proffy”</h3>
+    <Item
+      header2Classname="alura-h2"
+      logo={aluraLogo}
+      alt="Alura"
+      name="Alura Cursos Online"
+      eventName="Imersão React - Aplicação com ReactJS"
+      date="27/07/20 · 31/07/20"
+      githubUrl="https://github.com/zehguilherme/imersao-react"
+    />
 
-        <p>03/08/20 · 09/08/20</p>
+    <Item
+      header2Classname="rocketseat-h2"
+      logo={rocketseatLogo}
+      alt="Rocketseat"
+      name="Rocketseat"
+      eventName="Next Level Week 1 - Aplicação “Ecoleta”"
+      date="01/06/20 · 07/06/20"
+      githubUrl="https://github.com/zehguilherme/next-level-week"
+    />
 
-        <span className="github">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/zehguilherme/next-level-week-2"
-          >
-            <i className="fab fa-github" />
-          </a>
-        </span>
-      </div>
-    </div>
+    <Item
+      header2Classname="rocketseat-h2"
+      logo={rocketseatLogo}
+      alt="Rocketseat"
+      name="Rocketseat"
+      eventName="11ª Semana Omnistack - Aplicação “Be The Hero”"
+      date="23/03/20 · 29/03/20"
+      fileUrl1="https://storage.googleapis.com/golden-wind/semana-omnistack-11/jgtomaine@hotmail.com.pdf"
+      githubUrl="https://github.com/zehguilherme/semana-omnistack-11"
+    />
 
-    <div className="alura item">
-      <img src={aluraLogo} alt="Alura" />
+    <Item
+      header2Classname="rocketseat-h2"
+      logo={rocketseatLogo}
+      alt="Rocketseat"
+      name="Rocketseat"
+      header3Classname="rocketseat-h3"
+      eventName="3ª MaratonaDev - Aplicação web para cadastro de doadores de sangue"
+      date="17/02/20 · 19/02/20"
+      githubUrl="https://github.com/zehguilherme/maratona-dev3"
+    />
 
-      <div className="information">
-        <h2>Alura Cursos Online</h2>
-        <h3>Imersão React - Aplicação com ReactJS</h3>
+    <Item
+      header2Classname="ez-devs-h2"
+      logo={ezdevsLogo}
+      alt="Ez.devs"
+      name="Ez.devs"
+      eventName="2º Bootcamp - API para o aplicativo TinDev"
+      date="08/02/20"
+      githubUrl="https://github.com/zehguilherme/bootcamp-ezdevs-2"
+    />
 
-        <p>27/07/20 · 31/07/20</p>
+    <Item
+      header2Classname="rocketseat-h2"
+      logo={rocketseatLogo}
+      alt="Rocketseat"
+      name="Rocketseat"
+      eventName="10ª Semana OmniStack - Aplicação “DevRadar”"
+      date="13/01/20 · 17/01/20"
+      githubUrl="https://github.com/zehguilherme/semana-omnistack-10"
+    />
 
-        <span className="github">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/zehguilherme/imersao-react"
-          >
-            <i className="fab fa-github" />
-          </a>
-        </span>
-      </div>
-    </div>
+    <Item
+      header2Classname="unisagrado-h2"
+      logo={unisagradoLogo}
+      alt="Unisagrado"
+      name="Unisagrado"
+      eventName="TCC “Modelagem 3D do Zoológico de Bauru”"
+      eventFirstInformation="XXVI Fórum De Iniciação Científica;"
+      eventSecondInformation="VII Fórum De Desenvolvimento Tecnológico e Inovação;"
+      eventThirdInformation="VI Fórum De Iniciação Científica Do Ensino Médio;"
+      date="04/11/19 · 08/11/19"
+      githubUrl="https://github.com/zehguilherme/tcc-rv-zoo-bauru"
+      fileUrl1={tcc}
+      fileUrl2={forumIc}
+      fileUrl3={certificatePresentationTcc}
+    />
 
-    <div className="rocketseat item">
-      <img src={rocketseatLogo} alt="Rocketseat" />
+    <Item
+      header2Classname="unisagrado-h2"
+      logo={unisagradoLogo}
+      alt="Unisagrado"
+      name="Unisagrado"
+      eventName="8ª Jornada de Informática - Indústria 4"
+      date="10/05/18 · 11/05/18"
+    />
 
-      <div className="information">
-        <h2>Rocketseat</h2>
-        <h3>Next Level Week 1 - Aplicação “Ecoleta”</h3>
+    <Item
+      header2Classname="senac-h2"
+      logo={senacLogo}
+      alt="Senac"
+      name="Senac"
+      eventName="Curso de HTML5 e CSS3"
+      date="17/01/18 · 12/03/18"
+      githubUrl="https://github.com/zehguilherme/html5-css3"
+      fileUrl1="http://www1.intranet.sp.senac.br/senac_solution/pss/relatorios/certificados/NBAS/index.cfm?CRYPTALGID=f885ab1a-e751-11ea-b767-9f93a0890ad6&dt=2020-08-26-01.09.43.000000"
+    />
 
-        <p>01/06/20 · 07/06/20</p>
+    <Item
+      header2Classname="unisagrado-h2"
+      logo={unisagradoLogo}
+      alt="Unisagrado"
+      name="Unisagrado"
+      eventName="7ª Jornada de Informática - Games e Realidade Virtual"
+      date="11/05/17 · 12/05/17"
+      fileUrl1={seventhComputingJourney}
+    />
 
-        <span className="github">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/zehguilherme/next-level-week"
-          >
-            <i className="fab fa-github" />
-          </a>
-        </span>
-      </div>
-    </div>
-
-    <div className="rocketseat item">
-      <img src={rocketseatLogo} alt="Rocketseat" />
-
-      <div className="information">
-        <h2>Rocketseat</h2>
-        <h3>
-          11ª Semana Omnistack - Aplicação “Be The Hero”
-        </h3>
-
-        <p>23/03/20 · 29/03/20</p>
-
-        <div className="icons">
-          <span className="file">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://storage.googleapis.com/golden-wind/semana-omnistack-11/jgtomaine@hotmail.com.pdf"
-            >
-              <i className="far fa-file-alt" />
-            </a>
-          </span>
-
-          <span className="github">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/zehguilherme/semana-omnistack-11"
-            >
-              <i className="fab fa-github" />
-            </a>
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <div className="rocketseat item">
-      <img src={rocketseatLogo} alt="Rocketseat" />
-
-      <div className="information">
-        <h2>Rocketseat</h2>
-        <h3>
-          3ª MaratonaDev - Aplicação web para
-          {' '}
-          <br />
-          {' '}
-          cadastro de doadores de sangue
-        </h3>
-
-        <p>17/02/20 · 19/02/20</p>
-
-        <span className="github">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/zehguilherme/maratona-dev3"
-          >
-            <i className="fab fa-github" />
-          </a>
-        </span>
-      </div>
-    </div>
-
-    <div className="ez-devs item">
-      <img src={ezdevsLogo} alt="Ez.devs" />
-
-      <div className="information">
-        <h2>Ez.devs</h2>
-        <h3>2º Bootcamp - API para o aplicativo TinDev</h3>
-
-        <p>08/02/20</p>
-
-        <span className="github">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/zehguilherme/bootcamp-ezdevs-2"
-          >
-            <i className="fab fa-github" />
-          </a>
-        </span>
-      </div>
-    </div>
-
-    <div className="rocketseat item">
-      <img src={rocketseatLogo} alt="Rocketseat" />
-
-      <div className="information">
-        <h2>Rocketseat</h2>
-        <h3>10ª Semana OmniStack - Aplicação “DevRadar”</h3>
-
-        <p>13/01/20 · 17/01/20</p>
-
-        <span className="github">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/zehguilherme/semana-omnistack-10"
-          >
-            <i className="fab fa-github" />
-          </a>
-        </span>
-      </div>
-    </div>
-
-    <div className="unisagrado item">
-      <img src={unisagradoLogo} alt="Unisagrado" />
-
-      <div className="information">
-        <h2>Unisagrado</h2>
-        <h3>TCC “Modelagem 3D do Zoológico de Bauru”</h3>
-
-        <p>XXVI Fórum De Iniciação Científica;</p>
-        <p>VII Fórum De Desenvolvimento Tecnológico e Inovação;</p>
-        <p>VI Fórum De Iniciação Científica Do Ensino Médio;</p>
-
-        <p>04/11/19 · 08/11/19</p>
-
-        <div className="icons">
-          <span className="file">
-            <a target="_blank" rel="noopener noreferrer" href={tcc}>
-              <i className="far fa-file-alt" />
-            </a>
-          </span>
-
-          <span className="file">
-            <a target="_blank" rel="noopener noreferrer" href={forumIc}>
-              <i className="far fa-file-alt" />
-            </a>
-          </span>
-
-          <span className="file">
-            <a target="_blank" rel="noopener noreferrer" href={certificatePresentationTcc}>
-              <i className="far fa-file-alt" />
-            </a>
-          </span>
-
-          <span className="github">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/zehguilherme/tcc-rv-zoo-bauru"
-            >
-              <i className="fab fa-github" />
-            </a>
-          </span>
-        </div>
-      </div>
-    </div>
-
-    <div className="unisagrado item">
-      <img src={unisagradoLogo} alt="Unisagrado" />
-
-      <div className="information">
-        <h2>Unisagrado</h2>
-        <h3>8ª Jornada de Informática - Indústria 4</h3>
-
-        <p>10/05/18 · 11/05/18</p>
-      </div>
-    </div>
-
-    <div className="senac item">
-      <img src={senacLogo} alt="Senac" />
-
-      <div className="information">
-        <h2>Senac</h2>
-        <h3>Curso de HTML5 e CSS3</h3>
-
-        <p>17/01/18 · 12/03/18</p>
-
-        <div className="icons">
-          <span className="file">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="http://www1.intranet.sp.senac.br/
-              senac_solution/pss/relatorios/certificados/NBAS/
-              index.cfm?CRYPTALGID=cebde708-5330-11ea-b3f1-d869312b4231&dt=2020-02-19-12.59.28.000000"
-            >
-              <i className="far fa-file-alt" />
-            </a>
-          </span>
-
-          <span className="github">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/zehguilherme/html5-css3"
-            >
-              <i className="fab fa-github" />
-            </a>
-          </span>
-        </div>
-
-      </div>
-    </div>
-
-    <div className="unisagrado item">
-      <img src={unisagradoLogo} alt="Unisagrado" />
-
-      <div className="information">
-        <h2>Unisagrado</h2>
-        <h3>7ª Jornada de Informática - Games e Realidade Virtual</h3>
-
-        <p>11/05/17 · 12/05/17</p>
-
-        <span className="file">
-          <a target="_blank" rel="noopener noreferrer" href={seventhComputingJourney}>
-            <i className="far fa-file-alt" />
-          </a>
-        </span>
-      </div>
-    </div>
-
-    <div className="unisagrado item">
-      <img src={unisagradoLogo} alt="Unisagrado" />
-
-      <div className="information">
-        <h2>Unisagrado</h2>
-        <h3>6ª Jornada de Informática - Internet das Coisas</h3>
-
-        <p>02/05/16 · 03/05/16</p>
-
-        <span className="file">
-          <a target="_blank" rel="noopener noreferrer" href={sixthComputingJourney}>
-            <i className="far fa-file-alt" />
-          </a>
-        </span>
-      </div>
-    </div>
+    <Item
+      header2Classname="unisagrado-h2"
+      logo={unisagradoLogo}
+      alt="Unisagrado"
+      name="Unisagrado"
+      eventName="6ª Jornada de Informática - Games e Realidade Virtual"
+      date="02/05/16 · 03/05/16"
+      fileUrl1={sixthComputingJourney}
+    />
   </StylesQualificationsOthers>
 );
 
