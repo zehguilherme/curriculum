@@ -8,7 +8,7 @@ const ContainerEducation = () => (
   <StylesEducation>
     <h2>Formação</h2>
 
-    <div className="unisagrado">
+    <div className="unisagrado" title="Site da instituição">
       <img src={unisagradoLogo} alt="Unisagrado" className="unisagrado-img" />
 
       <div className="information">
