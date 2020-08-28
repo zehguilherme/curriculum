@@ -35,7 +35,7 @@ function Item ({
           {
             fileUrl1
             && (
-              <span className="file">
+              <span className="file" title="Arquivo">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -49,7 +49,7 @@ function Item ({
           {
             fileUrl2
             && (
-              <span className="file">
+              <span className="file" title="Arquivo">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -63,7 +63,7 @@ function Item ({
           {
             fileUrl3
             && (
-              <span className="file">
+              <span className="file" title="Arquivo">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -77,7 +77,7 @@ function Item ({
           {
             githubUrl
             && (
-              <span className="github">
+              <span className="github" title="Projeto no GitHub">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"

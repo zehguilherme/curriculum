@@ -8,7 +8,7 @@ import profileImg from '../../assets/profile.jpg';
 const ContainerMain = () => {
   const [age, setAge] = useState(0);
 
-  // Automatically updates the age
+  // Automatically updates the age over the years
   function ageCalculate () {
     const actualDate = new Date().toLocaleDateString();
     const actualDateWithoutBars = actualDate.split('/');
@@ -62,14 +62,14 @@ const ContainerMain = () => {
 
           <div className="phone">
             <div className="cellphone">
-              <a href="tel:+5514981195569">
+              <a href="tel:+5514981195569" title="Entrar em contato">
                 <i className="fas fa-mobile-alt" />
                 <span>(14) 98119-5569</span>
               </a>
             </div>
 
             <div className="landline">
-              <a href="tel:+551432274085">
+              <a href="tel:+551432274085" title="Entrar em contato">
                 <i className="fas fa-phone" />
                 <span>(14) 3227-4085</span>
               </a>

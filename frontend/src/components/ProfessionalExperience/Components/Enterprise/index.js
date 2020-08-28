@@ -12,6 +12,7 @@ function Enterprise ({
       <div className="information">
         <h3>
           <a
+            title="Site da empresa"
             target="_blank"
             rel="noopener noreferrer"
             href={url}
