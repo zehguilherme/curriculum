@@ -79,13 +79,9 @@ const ContainerMain = () => {
           <div className="address">
             <i className="fas fa-map-marker-alt" />
 
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.google.com/maps/search/?api=1&query=rua+eng.+alpheu+jose+ribas+sampaio%2C+2-25%2Cjardim+inf.+don+henrique%2Cbauru+-+sp"
-            >
-              Rua Eng. Alpheu José Ribas Sampaio, 2-25, apto 703, Jardim Inf. Don Henrique, Bauru – SP.
-            </a>
+            <p>
+              Rua Eng. Alpheu José Ribas Sampaio, Jardim Inf. Don Henrique, Bauru – SP.
+            </p>
           </div>
 
           <p>
