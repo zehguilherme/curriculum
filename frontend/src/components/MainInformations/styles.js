@@ -152,20 +152,16 @@ export const StylesMainContainer = styled.div`
     margin-right: 9px;
   }
 
-  .information .text .address a {
+  .information .text .address p {
     color: black;
     text-align: justify;
     line-height: 1.9rem;
   }
 
-  .information .text .address a:hover {
-    color: gray;
-  }
-
-  .information .text p {
+  .information .text > p {
     text-align: justify;
     line-height: 1.8rem;
-    font-weight: 600;
+    font-weight: 700;
 
     @media (max-width: 397px){
       text-align: center;
