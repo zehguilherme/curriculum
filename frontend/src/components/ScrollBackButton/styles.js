@@ -11,13 +11,14 @@ export const Container = styled.div`
   height: 55px;
   width: 55px;
   border-radius: 100%;
-  background: #312cec;
+  background: blue;
   color: #fff;
   z-index: 1;
   cursor: pointer;
+  transition: background-color 0.2s;
 
-  :hover{
-    background: #7d7bed;
+  &:hover{
+    background: #3636c4;
   }
 
   @media(max-width: 810px){
@@ -35,7 +36,7 @@ export const Container = styled.div`
   }
 
   .icon {
-    height: 40px;
+    height: 20px;
     width: auto;
   }
 `;
