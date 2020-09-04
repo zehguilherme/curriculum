@@ -20,6 +20,10 @@ export const SideBarContainer = styled.div`
     color: gray;
   }
 
+  span i {
+    transition: color 0.3s;
+  }
+
   .pdf-curriculum:hover i {
     color: red;
   }
