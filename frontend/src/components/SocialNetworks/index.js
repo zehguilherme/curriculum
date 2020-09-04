@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { StylesFooter } from './styles';
+import { StylesSocialNetworks } from './styles';
 
-const Footer = () => (
-  <StylesFooter>
+const SocialNetworks = () => (
+  <StylesSocialNetworks>
     <span className="email" title="Outlook">
       <a href="mailto:jgtomaine@hotmail.com">
         <i className="fas fa-envelope" />
@@ -33,7 +33,7 @@ const Footer = () => (
         <i className="fab fa-telegram" />
       </a>
     </span>
-  </StylesFooter>
+  </StylesSocialNetworks>
 );
 
-export default Footer;
+export default SocialNetworks;
