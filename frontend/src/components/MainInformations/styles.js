@@ -1,7 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
 
-export const StylesMainContainer = styled.div`
+export const StylesMainContainer = styled.section`
   display: flex;
   margin: auto 6.0rem;
 
@@ -82,19 +82,19 @@ export const StylesMainContainer = styled.div`
     text-align: center;
   }
 
-  .information .text .nationality-age-others {
+  .information .text .age {
     margin-bottom: 2.0rem;
     display: flex;
     align-items: center;
   }
 
-  .information .text .nationality-age-others i {
+  .information .text .age i {
     font-size: 2.2rem;
     margin-right: 9px;
     color: #f7941b;
   }
 
-  .information .text .nationality-age-others span {
+  .information .text .age span {
     font-size: 1.7rem;
     text-align: center;
   }
@@ -126,6 +126,7 @@ export const StylesMainContainer = styled.div`
     display: flex;
     align-items: center;
     font-weight: 700;
+    transition: background-color 0.3s;
   }
 
   .information .text .phone .cellphone a:hover,

@@ -1,7 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
 
-export const StylesKnowledge = styled.div`
+export const StylesKnowledge = styled.section`
   display: flex;
   flex-direction: column;
   padding: 30px 50px;
