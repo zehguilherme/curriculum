@@ -1,7 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
 
-export const StylesEducation = styled.div`
+export const StylesEducation = styled.section`
   display: flex;
   flex-direction: column;
   margin: 6rem;
@@ -63,6 +63,7 @@ export const StylesEducation = styled.div`
   .unisagrado .information a {
     font-size: 1.8rem;
     color: #4e4cec;
+    transition: color 0.3s;
   }
 
   .unisagrado .information a:hover {

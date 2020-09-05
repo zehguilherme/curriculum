@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 /* eslint-disable import/named */
 import React from 'react';
 
@@ -6,14 +7,14 @@ import Education from '../../components/Education';
 import ProfessionalExperience from '../../components/ProfessionalExperience';
 import Knowledge from '../../components/Knowledge';
 import QualificationsOthers from '../../components/QualificationsOthers';
-import Footer from '../../components/Footer';
+import SocialNetworks from '../../components/SocialNetworks';
 
 import './styles.css';
 
 export default function Home () {
   return (
     <div className="home-container">
-      <div className="curriculum-container">
+      <main className="curriculum-container">
         <MainInformations />
 
         <Education />
@@ -24,15 +25,23 @@ export default function Home () {
 
         <QualificationsOthers />
 
-        <Footer />
-      </div>
+        <SocialNetworks />
+      </main>
 
       <footer>
         <div className="footer-container">
-          <p>Feito com ❤️ por José Guilherme</p>
+          <p>
+            Feito com
+            {' '}
+            <span role="img" aria-label="Heart">❤️</span>
+            {' '}
+            por José Guilherme
+          </p>
 
           <p>
-            🎨 Design usado como inspiração:
+            <span role="img" aria-label="Color palette">🎨</span>
+            {' '}
+            Design usado como inspiração:
             {' '}
             <a
               href="https://dribbble.com/shots/9111243-Simple-Layout-CV-Curriculum-Vitae-Design"
@@ -40,12 +49,13 @@ export default function Home () {
               rel="noopener noreferrer"
             >
               Simple Layout CV - Curriculum Vitae Design
-
             </a>
           </p>
 
           <p>
-            👨 Autor:
+            <span role="img" aria-label="Person">👨</span>
+            {' '}
+            Autor:
             {' '}
             <a
               href="https://www.linkedin.com/in/rdfariz/"
@@ -53,7 +63,6 @@ export default function Home () {
               rel="noopener noreferrer"
             >
               Raden Fariz Insan Purnama
-
             </a>
           </p>
         </div>

@@ -20,6 +20,11 @@ const ContainerProfessionalExperience = () => (
       enterpriseName="ABC71 Sistemas de Gestão para Indústrias"
       positionName="Estágio - Desenvolvedor C++"
       date="05/11/18 · 15/12/19"
+      moreInformation1="Desenvolvimento de novas funcionalidades para um ERP de grande porte."
+      item1="Adaptar novas funcionalidades no sistema de gestão empresarial;"
+      item2="Auxiliar na codificação de programas (C++);"
+      item3="Auxiliar no desenvolvimento de novas tabelas (MySQL e Oracle);"
+      item4="Acompanhar na manutenção do sistema."
     />
 
     <Enterprise
@@ -30,6 +35,12 @@ const ContainerProfessionalExperience = () => (
       enterpriseName="Speksciences"
       positionName="Estágio - Desenvolvedor web"
       date="01/04/19 · 31/05/19"
+      moreInformation1="Desenvolvimento Web utilizando Angular e Hyperledger"
+      item1="Utilização da tecnologia Blockchain na melhoria de uma plataforma para o setor de energia;"
+      item2="Criação de registro de consumidores;"
+      item3="Criação do registro de produtores;"
+      item4="Visualização dos produtores e comercializadores mais próximos ao consumidor logado na plataforma;"
+      item5="Registro de dispositivos domésticos associados à cada consumidor e simulação do consumo de energia de cada dispositivo; criação do módulo que permite que um consumidor compre energia de um produtor."
     />
 
     <Enterprise
@@ -40,6 +51,10 @@ const ContainerProfessionalExperience = () => (
       enterpriseName="Televisão Universitária UNESP"
       positionName="Estágio - Suporte técnico"
       date="10/09/18 · 17/10/18"
+      item1="Manutenção de computadores (hardware e software);"
+      item2="Configuração de redes;"
+      item3="Formatação e backup;"
+      item4="Auxílio à equipe da TV nas gravações dos programas de acordo com a necessidade."
     />
   </StylesProfessionalExperience>
 );

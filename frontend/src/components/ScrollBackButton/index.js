@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useWindowScroll } from 'react-use';
-import { FaArrowCircleUp } from 'react-icons/fa';
+import { FaChevronUp } from 'react-icons/fa';
 
 import { Container } from './styles';
 
@@ -27,7 +27,7 @@ const ScrollBackButton = () => {
 
   return (
     <Container onClick={scrollToTop}>
-      <FaArrowCircleUp className="icon" />
+      <FaChevronUp className="icon" />
     </Container>
   );
 };

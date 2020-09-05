@@ -1,7 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
 
-export const StylesFooter = styled.footer`
+export const StylesSocialNetworks = styled.section`
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 10px;
   display: flex;
@@ -20,6 +20,10 @@ export const StylesFooter = styled.footer`
     @media(max-width: 360px){
       font-size: 30px;
     }
+  }
+
+  a i {
+    transition: color 0.3s;
   }
 
   /* Email */

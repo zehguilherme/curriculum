@@ -48,7 +48,7 @@ const ContainerMain = () => {
 
           <h2>Desenvolvedor de Software</h2>
 
-          <div className="nationality-age-others">
+          <div className="age">
             <i className="fas fa-calendar-alt" />
             <span>
               12 / Fev / 1997
@@ -85,7 +85,7 @@ const ContainerMain = () => {
           </div>
 
           <p>
-            Busco uma vaga no mercado no âmbito Front-end ou Back-end para
+            Busco uma vaga no mercado no âmbito Front-end para
             colocar meus conhecimentos na área da programação, colaborando o máximo possível com as equipes de trabalho e assim proporcionando um crescimento tanto da empresa como pessoal.
           </p>
 

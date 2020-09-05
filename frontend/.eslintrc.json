@@ -17,7 +17,7 @@
     "space-before-function-paren": "off",
     "linebreak-style": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "max-len": ["error", { "code": 110 }],
+    "max-len": "off",
     "comma-style": ["error", "first"]
   }
 }

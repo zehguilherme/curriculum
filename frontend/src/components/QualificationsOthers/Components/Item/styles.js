@@ -1,7 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
 
-export const ItemContainer = styled.div`
+export const ItemContainer = styled.article`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,6 +44,10 @@ export const ItemContainer = styled.div`
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 15px;
+
+    @media(max-width: 425px) {
+      text-align: center;
+    }
   }
 
   .rocketseat-h2 {
@@ -75,6 +79,12 @@ export const ItemContainer = styled.div`
     }
   }
 
+  .information p {
+    @media(max-width: 425px) {
+      text-align: center;
+    }
+  }
+
   /* Icons */
   .information .icons {
     display: flex;
@@ -92,6 +102,7 @@ export const ItemContainer = styled.div`
   .information .github a i {
     font-size: 30px;
     color: gray;
+    transition: color 0.3s;
   }
 
   .information .github a i:hover {
@@ -102,6 +113,7 @@ export const ItemContainer = styled.div`
   .information .file a i {
     font-size: 30px;
     color: gray;
+    transition: color 0.3s;
   }
 
   .information .file a i:hover {
@@ -109,7 +121,7 @@ export const ItemContainer = styled.div`
   }
 
   .information h3 {
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 15px;
   }
 

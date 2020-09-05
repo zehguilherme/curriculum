@@ -1,7 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import styled from 'styled-components';
 
-export const StylesProfessionalExperience = styled.div`
+export const StylesProfessionalExperience = styled.section`
   display: flex;
   flex-direction: column;
   padding: 3rem 5rem;
