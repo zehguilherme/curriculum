@@ -1,10 +1,18 @@
 <h1 align="center">
-  Curriculum
+  📑 Curriculum
 </h1>
+
+<div align="center">
+  <img src="./frontend/assets/../src/assets/curriculum.png" alt="Imagem do Currículo">
+</div>
+
+<br/>
 
 <div align="center">
   <img alt="GitHub" src="https://img.shields.io/github/license/zehguilherme/personal-curriculum">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/zehguilherme/personal-curriculum">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/zehguilherme/personal-curriculum">
+  <a href="https://www.codacy.com/manual/zehguilherme/personal-curriculum?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zehguilherme/personal-curriculum&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/2aa04a8dca4e4813842831915cb4475a"/></a>
 </div>
 
 <br>
@@ -29,9 +37,25 @@
 - [Prettier](https://prettier.io/)
 - [prop-types](https://www.npmjs.com/package/prop-types) - Runtime type checking for React props and similar objects
 
-#### 🎨 Design used as inspiration: [Dribbble](https://dribbble.com/shots/9111243-Simple-Layout-CV-Curriculum-Vitae-Design?utm_source=Clipboard_Shot&utm_campaign=rdfariz&utm_content=Simple%20Layout%20CV%20-%20Curriculum%20Vitae%20Design&utm_medium=Social_Share)
+## 🎨 Design used as inspiration: [Dribbble](https://dribbble.com/shots/9111243-Simple-Layout-CV-Curriculum-Vitae-Design?utm_source=Clipboard_Shot&utm_campaign=rdfariz&utm_content=Simple%20Layout%20CV%20-%20Curriculum%20Vitae%20Design&utm_medium=Social_Share)
 
 *Credits:* [Raden Fariz Insan Purnama](https://www.linkedin.com/in/rdfariz/)
+
+## 🚀 Getting started
+
+First of all you need to have `node` and `yarn`(or `npm`) installed on your machine.
+
+*If you decide to use npm don't forget to delete `yarn.lock` in folders.*
+
+Then you can clone the repository.
+
+`git clone https://github.com/zehguilherme/personal-curriculum`
+
+Start the application
+
+1. `cd frontend`
+2. `yarn` or `npm install`
+3. `yarn start` or `npm run start`
 
 ## 🤔 How to contribute
 
