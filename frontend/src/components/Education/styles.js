@@ -36,7 +36,7 @@ export const StylesEducation = styled.section`
     align-items: center;
     justify-content: space-between;
 
-    @media(max-width: 550px){
+    @media(max-width: 720px){
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -54,7 +54,7 @@ export const StylesEducation = styled.section`
     flex-direction: column;
     align-items: flex-end;
 
-    @media(max-width: 550px){
+    @media(max-width: 720px){
       align-items: center;
       justify-content: center;
     }
