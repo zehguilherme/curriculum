@@ -8,7 +8,6 @@ import profileImg from '../../assets/profile.jpg';
 const ContainerMain = () => {
   const [age, setAge] = useState(0);
 
-  // Automatically updates the age over the years
   function ageCalculate () {
     const actualDate = new Date().toLocaleDateString();
     const actualDateWithoutBars = actualDate.split('/');
@@ -36,12 +35,14 @@ const ContainerMain = () => {
 
   useEffect(() => {
     ageCalculate();
-  }, [age]);
+  }, []);
 
   return (
     <StylesMainContainer>
       <div className="information">
-        <img src={profileImg} alt="José Guilherme" />
+        <figure>
+          <img src={profileImg} alt="José Guilherme" />
+        </figure>
 
         <div className="text">
           <h1>José Guilherme Paro Monteiro Tomaine</h1>
@@ -78,7 +79,6 @@ const ContainerMain = () => {
 
           <div className="address">
             <i className="fas fa-map-marker-alt" />
-
             <p>
               Rua Eng. Alpheu José Ribas Sampaio, Jardim Inf. Don Henrique, Bauru – SP.
             </p>
@@ -88,7 +88,6 @@ const ContainerMain = () => {
             Busco uma vaga no mercado no âmbito Front-end para
             colocar meus conhecimentos na área da programação, colaborando o máximo possível com as equipes de trabalho e assim proporcionando um crescimento tanto da empresa como pessoal.
           </p>
-
         </div>
       </div>
     </StylesMainContainer>

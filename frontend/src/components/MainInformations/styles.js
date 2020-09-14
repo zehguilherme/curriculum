@@ -25,7 +25,7 @@ export const StylesMainContainer = styled.section`
     }
   }
 
-  .information img {
+  .information figure img {
     width: 247px;
     height: 247px;
     margin-right: 5.0rem;
