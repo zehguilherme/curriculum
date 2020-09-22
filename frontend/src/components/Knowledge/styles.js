@@ -37,42 +37,4 @@ export const StylesKnowledge = styled.section`
       grid-auto-columns: repeat(auto-fit, max(192.5px));
     }
   }
-
-  .grid .card {
-    height: 120px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
-
-    transition: opacity 0.8s;
-  }
-
-  .grid .card i {
-    font-size: 9.5rem;
-  }
-
-  /* Pascal */
-  .grid .pascal img {
-    height: 96px;
-  }
-
-  /* Blender */
-  .grid .blender img {
-    width: 160px;
-    height: auto;
-  }
-
-  /* SVN */
-  .grid .svn img {
-    height: 23px;
-  }
-
-  /* English */
-  .grid .english h3 {
-    font-size: 2rem;
-    font-weight: 700;
-  }
 `;

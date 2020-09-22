@@ -2,78 +2,79 @@ import React from 'react';
 
 import { StylesKnowledge } from './styles';
 
+import Item from './Components/Item';
+
 import blenderLogo from '../../assets/blender-logo.svg';
 import svnLogo from '../../assets/svn-logo.png';
-import pascalLogo from '../../assets/pascal-logo.svg';
+import reactNativeLogo from '../../assets/react-native-logo.png';
 
 const ContainerKnowledge = () => (
   <StylesKnowledge>
     <h2>Conhecimentos</h2>
 
     <div className="grid">
-      <div className="pascal card">
-        <img src={pascalLogo} alt="Pascal logo" />
-      </div>
+      <Item
+        iconClassName="devicon-csharp-line colored"
+      />
 
-      <div className="c-sharp card">
-        <i className="devicon-csharp-line colored" />
-      </div>
+      <Item
+        iconClassName="devicon-java-plain-wordmark colored"
+      />
 
-      <div className="java card">
-        <i className="devicon-java-plain-wordmark colored" />
-      </div>
+      <Item
+        iconClassName="devicon-javascript-plain colored"
+      />
 
-      <div className="javascript card">
-        <i className="devicon-javascript-plain colored" />
-      </div>
+      <Item
+        iconClassName="devicon-html5-plain-wordmark colored"
+      />
 
-      <div className="html5 card">
-        <i className="devicon-html5-plain-wordmark colored" />
-      </div>
+      <Item
+        iconClassName="devicon-css3-plain-wordmark colored"
+      />
 
-      <div className="css3 card">
-        <i className="devicon-css3-plain-wordmark colored" />
-      </div>
+      <Item
+        iconClassName="devicon-mysql-plain-wordmark colored"
+      />
 
-      <div className="mysql card">
-        <i className="devicon-mysql-plain-wordmark colored" />
-      </div>
+      <Item
+        iconClassName="devicon-oracle-original colored"
+      />
 
-      <div className="oracle card">
-        <i className="devicon-oracle-original colored" />
-      </div>
+      <Item
+        image={blenderLogo}
+        imageAlt="Blender"
+      />
 
-      <div className="blender card">
-        <img src={blenderLogo} alt="Blender logo" />
-      </div>
+      <Item
+        iconClassName="devicon-git-plain-wordmark colored"
+      />
 
-      <div className="git card">
-        <i className="devicon-git-plain-wordmark colored" />
-      </div>
+      <Item
+        image={svnLogo}
+        imageAlt="SVN"
+      />
 
-      <div className="svn card">
-        <img src={svnLogo} alt="SVN logo" />
-      </div>
+      <Item
+        iconClassName="devicon-react-original-wordmark colored"
+      />
 
-      <div className="react card">
-        <i className="devicon-react-original-wordmark colored" />
-      </div>
+      <Item
+        image={reactNativeLogo}
+        imageAlt="React Native"
+      />
 
-      <div className="react-native card">
-        <i className="devicon-react-original colored" />
-      </div>
+      <Item
+        iconClassName="devicon-nodejs-plain colored"
+      />
 
-      <div className="node card">
-        <i className="devicon-nodejs-plain colored" />
-      </div>
+      <Item
+        iconClassName="devicon-cplusplus-line-wordmark colored"
+      />
 
-      <div className="c-plus-plus card">
-        <i className="devicon-cplusplus-line-wordmark colored" />
-      </div>
-
-      <div className="english card">
-        <h3>Inglês técnico</h3>
-      </div>
+      <Item
+        title3="Inglês técnico"
+      />
     </div>
   </StylesKnowledge>
 );
