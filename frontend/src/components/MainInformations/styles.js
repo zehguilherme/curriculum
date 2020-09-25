@@ -26,8 +26,6 @@ export const StylesMainContainer = styled.section`
   }
 
   .information figure img {
-    width: 247px;
-    height: 247px;
     margin-right: 5.0rem;
     margin-bottom: 3.0rem;
     border-radius: 10px;
@@ -109,36 +107,6 @@ export const StylesMainContainer = styled.section`
       align-items: center;
       justify-content: center;
     }
-  }
-
-  .information .text .phone .cellphone {
-    @media(max-width: 560px){
-      margin-bottom: 1.5rem;
-    }
-  }
-
-  .information .text .phone .cellphone a,
-  .information .text .phone .landline a {
-    color: #fff;
-    background-color: #008000;
-    border-radius: 10px;
-    padding: 1rem 1.5rem;
-    display: flex;
-    align-items: center;
-    font-weight: 700;
-    transition: background-color 0.3s;
-  }
-
-  .information .text .phone .cellphone a:hover,
-  .information .text .phone .landline a:hover {
-    background-color: #006600;
-  }
-
-  .information .text .phone .cellphone a i,
-  .information .text .phone .landline a i {
-    font-size: 2.2rem;
-    color: #fff;
-    margin: 0 1rem 0 0;
   }
 
   .information .text .address {
