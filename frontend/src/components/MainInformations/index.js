@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 
 import { StylesMainContainer } from './styles';
 
+import Button from './Components/Button';
+
 import profileImg from '../../assets/profile.jpg';
 
 const ContainerMain = () => {
@@ -62,19 +64,19 @@ const ContainerMain = () => {
           </div>
 
           <div className="phone">
-            <div className="cellphone">
-              <a href="tel:+5514981195569" title="Entrar em contato">
-                <i className="fas fa-mobile-alt" />
-                <span>(14) 98119-5569</span>
-              </a>
-            </div>
+            <Button
+              phoneNumberHref="+5514981195569"
+              title="Ligar para celular"
+              iconClassName="fas fa-mobile-alt"
+              phoneNumber="(14) 98119-5569"
+            />
 
-            <div className="landline">
-              <a href="tel:+551432274085" title="Entrar em contato">
-                <i className="fas fa-phone" />
-                <span>(14) 3227-4085</span>
-              </a>
-            </div>
+            <Button
+              phoneNumberHref="+551432274085"
+              title="Ligar para telefone fixo"
+              iconClassName="fas fa-phone"
+              phoneNumber="(14) 3227-4085"
+            />
           </div>
 
           <div className="address">
