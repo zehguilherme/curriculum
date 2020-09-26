@@ -2,16 +2,14 @@
 import styled from 'styled-components';
 
 export const ItemContainer = styled.div`
-  height: 120px;
+  height: 160px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
-
-  transition: opacity 0.8s;
-
   i {
     font-size: 9.5rem;
   }
