@@ -55,7 +55,6 @@ function Enterprise ({
               isButtonClicked && moreInformation1 ? { marginBottom: 20 } : null
             }
           >
-            <hr className="divider" />
 
             <FaChevronDown
               style={
@@ -66,7 +65,6 @@ function Enterprise ({
               onClick={handleShowMoreInformationFromEveryEnterprise}
             />
 
-            <hr className="divider" />
           </div>
         )
       }
