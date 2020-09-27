@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { useEffect, useState } from 'react';
 
-import { Container } from './styles';
+import { ReadProgressBarContainer } from './styles';
 
 const ReadProgressBar = ({ containerReference }) => {
   const [readingProgress, setReadingProgress] = useState(0);
@@ -28,9 +28,9 @@ const ReadProgressBar = ({ containerReference }) => {
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  });
 
-  return (<Container width={`${readingProgress}%`} />);
+  return (<ReadProgressBarContainer width={`${readingProgress}%`} />);
 };
 
 ReadProgressBar.propTypes = {

@@ -20,7 +20,7 @@ const ContainerProfessionalExperience = () => (
       enterpriseName="ABC71 Sistemas de Gestão para Indústrias"
       positionName="Estágio - Desenvolvedor C++"
       date="05/11/18 · 15/12/19"
-      moreInformation1="Desenvolvimento de novas funcionalidades para um ERP de grande porte."
+      moreInformation1="Desenvolvimento de novas funcionalidades para um ERP de grande porte"
       item1="Adaptar novas funcionalidades no sistema de gestão empresarial;"
       item2="Auxiliar na codificação de programas (C++);"
       item3="Auxiliar no desenvolvimento de novas tabelas (MySQL e Oracle);"
