@@ -25,6 +25,16 @@ const ContainerQualificationsOthers = () => (
       logo={rocketseatLogo}
       alt="Rocketseat"
       name="Rocketseat"
+      eventName="Next Level Week 3 - Aplicação “Happy”"
+      date="12/10/20 · 18/10/20"
+      githubUrl="https://github.com/zehguilherme/next-level-week-3"
+    />
+
+    <Item
+      header2Classname="rocketseat-h2"
+      logo={rocketseatLogo}
+      alt="Rocketseat"
+      name="Rocketseat"
       eventName="Next Level Week 2 - Aplicação “Proffy”"
       date="03/08/20 · 09/08/20"
       githubUrl="https://github.com/zehguilherme/next-level-week-2"
@@ -77,7 +87,7 @@ const ContainerQualificationsOthers = () => (
       logo={ezdevsLogo}
       alt="Ez.devs"
       name="Ez.devs"
-      eventName="2º Bootcamp - API para o aplicativo TinDev"
+      eventName="2º Bootcamp - API para o aplicativo ”TinDev”"
       date="08/02/20"
       githubUrl="https://github.com/zehguilherme/bootcamp-ezdevs-2"
     />
