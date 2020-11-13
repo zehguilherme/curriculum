@@ -143,10 +143,9 @@ export const EnterpriseContainer = styled.article`
   }
 
   .more-information li {
-    list-style-type: disc;
     text-align: justify;
 
-    @media(max-width: 385px) {
+    @media(max-width: 874px) {
       text-align: center;
     }
   }

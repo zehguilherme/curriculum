@@ -60,7 +60,6 @@ function Enterprise ({
               style={
                 isButtonClicked ? { transition: 'transform 0.3s', transform: 'rotate(180deg)' } : { transition: 'transform 0.3s', transform: 'rotate(0deg)' }
               }
-
               className="icon"
               onClick={handleShowMoreInformationFromEveryEnterprise}
             />
