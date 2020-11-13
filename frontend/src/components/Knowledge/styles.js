@@ -21,6 +21,10 @@ export const StylesKnowledge = styled.section`
     color: #312cec;
     font-size: 2.2rem;
 
+    @media(max-width: 1016px) {
+      text-align: center;
+    }
+
     @media(max-width: 354px){
       font-size: 2.1rem;
     }

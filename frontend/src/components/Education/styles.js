@@ -26,6 +26,10 @@ export const StylesEducation = styled.section`
     margin-bottom: 20px;
     font-size: 2.2rem;
 
+    @media(max-width: 1016px) {
+      text-align: center;
+    }
+
     @media(max-width: 354px){
       font-size: 2.1rem;
     }
