@@ -22,6 +22,10 @@ export const StylesProfessionalExperience = styled.section`
     font-size: 2.2rem;
     margin-bottom: 35px;
 
+    @media(max-width: 1016px) {
+      text-align: center;
+    }
+
     @media(max-width: 425px){
       text-align: center;
     }
