@@ -5,7 +5,7 @@ import { ItemContainer } from './styles';
 
 function Item ({
   header2Classname,
-  logo, alt, name, eventName, eventFirstInformation, eventSecondInformation, eventThirdInformation, date, fileUrl1, fileUrl2, fileUrl3, githubUrl,
+  logo, alt, name, eventName, eventShortDescription, eventFirstInformation, eventSecondInformation, eventThirdInformation, date, fileUrl1, fileUrl2, fileUrl3, githubUrl,
 }) {
   return (
     <ItemContainer>
@@ -14,6 +14,11 @@ function Item ({
         <h2 className={header2Classname}>{name}</h2>
         <h3>
           {eventName}
+          {
+            eventShortDescription
+            && <br />
+          }
+          {eventShortDescription}
         </h3>
 
         {
@@ -100,6 +105,7 @@ Item.propTypes = {
   , alt: PropTypes.string.isRequired
   , name: PropTypes.string.isRequired
   , eventName: PropTypes.string.isRequired
+  , eventShortDescription: PropTypes.string
   , eventFirstInformation: PropTypes.string
   , eventSecondInformation: PropTypes.string
   , eventThirdInformation: PropTypes.string
