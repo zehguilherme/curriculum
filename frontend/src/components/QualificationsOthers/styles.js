@@ -26,6 +26,10 @@ export const StylesQualificationsOthers = styled.section`
     font-size: 22px;
     margin-bottom: 30px;
 
+    @media(max-width: 1016px) {
+      text-align: center;
+    }
+
     @media(max-width: 354px){
       font-size: 2.1rem;
     }
