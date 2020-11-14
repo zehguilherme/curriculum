@@ -21,6 +21,19 @@ const ContainerQualificationsOthers = () => (
     <h2>Qualificações e outras atividades</h2>
 
     <Item
+      header2Classname="senac-h2"
+      logo={senacLogo}
+      alt="Senac"
+      name="Senac"
+      eventName="Curso ”Programador de Dispositivos Móveis” pelo SENAC Bauru"
+      eventShortDescription="Criação de
+      aplicativo móvel para gerenciamento de quadras esportivas"
+      date="18/02/20 · 05/11/20"
+      fileUrl1="http://www1.intranet.sp.senac.br/senac_solution/pss/relatorios/certificados/NBASVIARAPIDA/mod29.cfm?CRYPTALGID=7a07a20a-238a-11eb-b30f-8e2e73c23e1c&dt=2020-11-10-16.25.22.000000"
+      githubUrl="https://github.com/zehguilherme/mobile-senac-bauru"
+    />
+
+    <Item
       header2Classname="rocketseat-h2"
       logo={rocketseatLogo}
       alt="Rocketseat"
@@ -77,7 +90,8 @@ const ContainerQualificationsOthers = () => (
       alt="Rocketseat"
       name="Rocketseat"
       header3Classname="rocketseat-h3"
-      eventName="3ª MaratonaDev - Aplicação web para cadastro de doadores de sangue"
+      eventName="3ª MaratonaDev"
+      eventShortDescription="Aplicação web para cadastro de doadores de sangue"
       date="17/02/20 · 19/02/20"
       githubUrl="https://github.com/zehguilherme/maratona-dev3"
     />

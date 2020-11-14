@@ -72,7 +72,7 @@ export const EnterpriseContainer = styled.article`
   .enterprise .information h3 {
     margin-bottom: 20px;
 
-    @media(max-width: 425px) {
+    @media(max-width: 544px) {
       text-align: center;
     }
   }
@@ -143,10 +143,9 @@ export const EnterpriseContainer = styled.article`
   }
 
   .more-information li {
-    list-style-type: disc;
     text-align: justify;
 
-    @media(max-width: 385px) {
+    @media(max-width: 874px) {
       text-align: center;
     }
   }
