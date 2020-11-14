@@ -72,7 +72,7 @@ export const EnterpriseContainer = styled.article`
   .enterprise .information h3 {
     margin-bottom: 20px;
 
-    @media(max-width: 544px) {
+    @media(max-width: 672px) {
       text-align: center;
     }
   }
