@@ -58,12 +58,12 @@ function Enterprise ({
 
             <FaChevronDown
               style={
-                isButtonClicked ? { transition: 'transform 0.3s', transform: 'rotate(180deg)' } : { transition: 'transform 0.3s', transform: 'rotate(0deg)' }
+                isButtonClicked ? { transition: 'transform 0.3s', transform: 'rotate(180deg)' }
+                  : { transition: 'transform 0.3s', transform: 'rotate(0deg)' }
               }
               className="icon"
               onClick={handleShowMoreInformationFromEveryEnterprise}
             />
-
           </div>
         )
       }
