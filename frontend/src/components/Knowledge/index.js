@@ -28,7 +28,7 @@ const ContainerKnowledge = () => (
 
       <Item iconClassName="devicon-git-plain-wordmark colored" />
 
-      <Item iconClassName="devicon-github-plain-wordmark colored" />
+      <Item iconClassName="devicon-github-original-wordmark colored" />
 
       <Item
         image={svnLogo}
