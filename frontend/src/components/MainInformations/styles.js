@@ -11,7 +11,7 @@ export const StylesMainContainer = styled.section`
 
   .information {
     display: flex;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    box-shadow: 0 0 15px var(--section-item-border);
     border-radius: 10px;
 
     @media (max-width: 1043px){
@@ -29,7 +29,7 @@ export const StylesMainContainer = styled.section`
     margin-right: 5.0rem;
     margin-bottom: 3.0rem;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    box-shadow: 0 0 15px var(--section-item-border);
 
     @media (max-width: 1043px){
       margin-right: 0;
@@ -73,7 +73,7 @@ export const StylesMainContainer = styled.section`
   }
 
   .information .text h2 {
-    color: #4c7ceb;
+    color: var(--background);
     margin-top: 2.0rem;
     margin-bottom: 2.0rem;
     font-size: 2rem;

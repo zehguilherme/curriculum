@@ -6,7 +6,7 @@ export const StylesEducation = styled.section`
   flex-direction: column;
   margin: 6rem;
   padding: 3rem 5rem;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px var(--section-item-border);
   border-radius: 10px;
 
   @media(max-width: 353px){
@@ -22,7 +22,7 @@ export const StylesEducation = styled.section`
   }
 
   h2 {
-    color: #312cec;
+    color: var(--title-section);
     margin-bottom: 20px;
     font-size: 2.2rem;
 
@@ -66,7 +66,7 @@ export const StylesEducation = styled.section`
 
   .unisagrado .information a {
     font-size: 1.8rem;
-    color: #4e4cec;
+    color: var(--title-item);
     transition: color 0.3s;
   }
 

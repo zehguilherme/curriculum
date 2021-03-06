@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 
 export const EnterpriseContainer = styled.article`
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  box-shadow: 0 0 15px var(--section-item-border);
   border-radius: 8px;
   padding: 2rem;
 
@@ -79,7 +79,7 @@ export const EnterpriseContainer = styled.article`
 
   .enterprise .information h3 a {
     font-size: 1.8rem;
-    color: #4e4cec;
+    color: var(--title-item);
     transition: color 0.3s;
   }
 
@@ -124,7 +124,7 @@ export const EnterpriseContainer = styled.article`
 
   .more-information-button .icon:hover {
     cursor: pointer;
-    background-color: #CCCCCC;
+    background-color: var(--background-more-information-button);
   }
 
   .more-information {
