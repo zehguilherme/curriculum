@@ -1,9 +1,9 @@
 body {
-  background-color: #4c7ceb;
+  background-color: var(--background);
 }
 
 .home-container {
-  background-color: #4c7ceb;
+  background-color: var(--background);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -31,7 +31,7 @@ body {
 }
 
 .home-container footer .footer-container p {
-  color: #eeeeee;
+  color: var(--text-white);
   font-weight: 600;
   line-height: 2.3rem;
 }
@@ -50,7 +50,7 @@ body {
 }
 
 .curriculum-container {
-  background-color: #f9fafa;
+  background-color: var(--background-curriculum);
   border-radius: 10px;
   max-width: 1148px;
   padding-top: 6rem;

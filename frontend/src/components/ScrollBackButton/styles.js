@@ -11,14 +11,14 @@ export const Container = styled.div`
   height: 55px;
   width: 55px;
   border-radius: 100%;
-  background: blue;
+  background: var(--blue);
   color: #fff;
   z-index: 1;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: filter 0.2s;
 
   &:hover{
-    background: #3636c4;
+    filter: brightness(0.9);
   }
 
   @media(max-width: 810px){

@@ -66,7 +66,7 @@ export const NotFoundPageContainer = styled.div`
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    background-color: #008000;
+    background-color: var(--green);
     color: #fff;
     border-radius: 10px;
     padding: 10px;

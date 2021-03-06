@@ -5,7 +5,7 @@ export const StylesProfessionalExperience = styled.section`
   display: flex;
   flex-direction: column;
   padding: 3rem 5rem;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px var(--section-item-border);
   border-radius: 10px;
   margin: 6.0rem;
 
@@ -18,7 +18,7 @@ export const StylesProfessionalExperience = styled.section`
   }
 
   h2 {
-    color: #312cec;
+    color: var(--title-section);
     font-size: 2.2rem;
     margin-bottom: 35px;
 

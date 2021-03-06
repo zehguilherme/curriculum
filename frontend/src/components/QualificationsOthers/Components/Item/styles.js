@@ -5,7 +5,7 @@ export const ItemContainer = styled.article`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  box-shadow: 0 0 15px var(--section-item-border);
   border-radius: 8px;
   padding: 20px;
 
@@ -14,7 +14,6 @@ export const ItemContainer = styled.article`
     justify-content: center;
   }
 
-  /* Except last item */
   :not(:last-child) {
     margin-bottom: 35px;
   }
@@ -101,23 +100,23 @@ export const ItemContainer = styled.article`
   /* GitHub */
   .information .github a i {
     font-size: 30px;
-    color: gray;
+    color: var(--gray);
     transition: color 0.3s;
   }
 
   .information .github a i:hover {
-    color: black;
+    color: var(--black);
   }
 
   /* PDF file */
   .information .file a i {
     font-size: 30px;
-    color: gray;
+    color: var(--gray);
     transition: color 0.3s;
   }
 
   .information .file a i:hover {
-    color: red;
+    color: var(--red);
   }
 
   .information h3 {
@@ -125,21 +124,10 @@ export const ItemContainer = styled.article`
     margin-bottom: 15px;
   }
 
-  .information a {
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    margin-bottom: 15px;
-    transition: color 0.2s;
-  }
-
-  .information a:hover {
-    color: grey;
-  }
-
   .information p {
     margin-bottom: 20px;
     font-size: 17px;
     text-align: center;
+    color: var(--text)
   }
 `;

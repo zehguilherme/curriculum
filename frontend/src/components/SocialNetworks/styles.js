@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 
 export const StylesSocialNetworks = styled.section`
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px var(--section-item-border);
   border-radius: 10px;
   display: flex;
   margin: 6rem 6rem auto 6rem;
@@ -15,7 +15,7 @@ export const StylesSocialNetworks = styled.section`
 
   a i {
     font-size: 35px;
-    color: gray;
+    color: var(--gray);
 
     @media(max-width: 360px){
       font-size: 30px;
@@ -28,12 +28,12 @@ export const StylesSocialNetworks = styled.section`
 
   /* Email */
   a i.fas:hover {
-    color: blue;
+    color: var(--blue);
   }
 
   /* GitHub */
   a i.fa-github:hover {
-    color: black;
+    color: var(--black);
   }
 
   /* Linkedin */

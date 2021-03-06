@@ -2,6 +2,22 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
 
+  :root {
+    --background: #4C7CEB;
+    --background-curriculum: #F9FAFA;
+    --background-more-information-button: #CCCCCC;
+    --text: #000000;
+    --text-white: #ffffff;
+    --section-item-border: rgba(0,0,0,0.1);
+    --title-section: #312cec;
+    --title-item: #4e4cec;
+    --red: red;
+    --gray: gray;
+    --blue: blue;
+    --black: black;
+    --green: #008000;
+  }
+
   html {
     font-size: 62.5%; /* every 1rem will be considered 10px */
   }

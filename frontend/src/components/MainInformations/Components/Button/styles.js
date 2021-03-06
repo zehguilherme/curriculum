@@ -9,8 +9,8 @@ export const ButtonContainer = styled.div`
   }
 
   a {
-    color: #fff;
-    background-color: #008000;
+    color: var(--text-white);
+    background-color: var(--green);
     border-radius: 10px;
     padding: 1rem 1.5rem;
     display: flex;
@@ -25,7 +25,7 @@ export const ButtonContainer = styled.div`
 
   a i {
     font-size: 2.2rem;
-    color: #fff;
+    color: var(--text-white);
     margin: 0 1rem 0 0;
   }
 `;

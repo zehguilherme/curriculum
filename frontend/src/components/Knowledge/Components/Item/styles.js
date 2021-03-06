@@ -9,7 +9,7 @@ export const ItemContainer = styled.div`
   justify-content: space-around;
   align-items: center;
   border-radius: 8px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  box-shadow: 0 0 15px var(--section-item-border);
   i {
     font-size: 9.5rem;
   }
