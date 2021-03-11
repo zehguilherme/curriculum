@@ -4,6 +4,7 @@ import { StylesProfessionalExperience } from './styles';
 
 import Enterprise from './Components/Enterprise';
 
+import kentechLogo from '../../assets/kentech-logo.png';
 import abc71Logo from '../../assets/abc71-logo.png';
 import speksciencesLogo from '../../assets/speksciences-logo.jpg';
 import tvUnespLogo from '../../assets/tvunesp-logo.png';
@@ -11,6 +12,18 @@ import tvUnespLogo from '../../assets/tvunesp-logo.png';
 const ContainerProfessionalExperience = () => (
   <StylesProfessionalExperience>
     <h2>Experiência Profissional</h2>
+
+    <Enterprise
+      enterpriseClassName="kentech"
+      logo={kentechLogo}
+      alt="Kentech Inovações em Tecnologia"
+      url="http://kentech.com.br/"
+      enterpriseName="Kentech Inovações em Tecnologia"
+      positionName="Desenvolvedor Front-end Júnior"
+      date="23/11/20 · Presente"
+      item1="Desenvolvimento Mobile utilizando Xamarin Forms;"
+      item2="Desenvolvimento Web utilizando jQuery, Bootstrap e ASP.NET Core MVC;"
+    />
 
     <Enterprise
       enterpriseClassName="abc71"

@@ -28,6 +28,16 @@ export const EnterpriseContainer = styled.article`
     }
   }
 
+  /* Kentech */
+  .enterprise .kentech {
+    width: 92px;
+    height: auto;
+
+    @media(max-width: 875px){
+      margin-bottom: 2.5rem;
+    }
+  }
+
   /* ABC71 */
   .enterprise .abc71  {
     width: 148px;
@@ -134,6 +144,7 @@ export const EnterpriseContainer = styled.article`
     align-items: center;
     margin-right: 15px;
     margin-left: 15px;
+    margin-top: 15px;
   }
 
   .more-information p {
