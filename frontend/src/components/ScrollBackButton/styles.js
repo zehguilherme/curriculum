@@ -21,20 +21,6 @@ export const Container = styled.div`
     filter: brightness(0.9);
   }
 
-  @media(max-width: 810px){
-    bottom: 145px;
-  }
-
-  @media(max-width: 650px){
-    bottom: 88px;
-    right: 2%;
-  }
-
-  @media(max-width: 610px){
-    bottom: 241px;
-    right: 2%;
-  }
-
   .icon {
     height: 20px;
     width: auto;
