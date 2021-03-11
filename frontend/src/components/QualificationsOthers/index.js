@@ -21,6 +21,16 @@ const ContainerQualificationsOthers = () => (
     <h2>Qualificações e outras atividades</h2>
 
     <Item
+      header2Classname="rocketseat-h2"
+      logo={rocketseatLogo}
+      alt="Rocketseat"
+      name="Rocketseat"
+      eventName="Next Level Week 4 - Aplicação “Move.it”"
+      date="22/02/21 · 28/02/21"
+      githubUrl="https://github.com/zehguilherme/next-level-week-4"
+    />
+
+    <Item
       header2Classname="senac-h2"
       logo={senacLogo}
       alt="Senac"
