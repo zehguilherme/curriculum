@@ -4,7 +4,6 @@ import { StylesKnowledge } from './styles';
 
 import Item from './Components/Item';
 
-import blenderLogo from '../../assets/blender-logo.svg';
 import svnLogo from '../../assets/svn-logo.png';
 
 const ContainerKnowledge = () => (
@@ -18,9 +17,9 @@ const ContainerKnowledge = () => (
 
       <Item iconClassName="devicon-javascript-plain colored" />
 
-      <Item iconClassName="devicon-react-original-wordmark colored" />
+      <Item iconClassName="devicon-jquery-plain-wordmark colored " />
 
-      <Item iconClassName="devicon-nodejs-plain colored" />
+      <Item iconClassName="devicon-react-original-wordmark colored" />
 
       <Item iconClassName="devicon-mysql-plain-wordmark colored" />
 
@@ -39,10 +38,7 @@ const ContainerKnowledge = () => (
 
       <Item iconClassName="devicon-csharp-line colored" />
 
-      <Item
-        image={blenderLogo}
-        imageAlt="Blender"
-      />
+      <Item iconClassName="devicon-dot-net-plain-wordmark colored" />
 
       <Item
         iconClassName="fas fa-comments"
