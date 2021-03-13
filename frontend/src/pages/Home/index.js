@@ -1,3 +1,4 @@
+/* eslint-disable no-new */
 /* eslint-disable import/extensions */
 /* eslint-disable import/named */
 import React, { useRef } from 'react';
@@ -17,6 +18,8 @@ import './styles.css';
 
 export default function Home () {
   const containerReference = useRef(null);
+
+  document.title = 'Currículo Online';
 
   return (
     <>

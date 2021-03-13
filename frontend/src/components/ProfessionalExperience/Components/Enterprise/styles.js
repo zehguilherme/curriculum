@@ -153,15 +153,33 @@ export const EnterpriseContainer = styled.article`
     text-align: center;
   }
 
-  .more-information li {
-    text-align: justify;
+  .more-information ul {
+    position: relative;
+  }
 
-    @media(max-width: 874px) {
-      text-align: center;
-    }
+  .more-information li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .more-information li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 5px;
+    height: 11px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: #00a8a8;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
   }
 
   .more-information li:not(:last-child) {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 `;

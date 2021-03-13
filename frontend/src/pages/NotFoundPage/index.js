@@ -7,6 +7,8 @@ import image404 from '../../assets/image-404.webp';
 import { NotFoundPageContainer } from './styles';
 
 export default function NotFoundPage () {
+  document.title = 'Página não encontrada';
+
   return (
     <NotFoundPageContainer>
       <div className="error">
