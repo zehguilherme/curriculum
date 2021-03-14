@@ -28,42 +28,11 @@ export const EnterpriseContainer = styled.article`
     }
   }
 
-  /* Kentech */
-  .enterprise .kentech {
+  .enterprise img {
     width: 92px;
     height: auto;
 
-    @media(max-width: 875px){
-      margin-bottom: 2.5rem;
-    }
-  }
-
-  /* ABC71 */
-  .enterprise .abc71  {
-    width: 148px;
-    height: auto;
-
-    @media(max-width: 875px){
-      margin-bottom: 2.5rem;
-    }
-  }
-
-  /* Speksciences */
-  .enterprise .speksciences  {
-    width: 95px;
-    height: auto;
-
-    @media(max-width: 875px){
-      margin-bottom: 2.5rem;
-    }
-  }
-
-  /* TV UNESP */
-  .enterprise .tv-unesp  {
-    width: 95px;
-    height: auto;
-
-    @media(max-width: 875px){
+    @media(max-width: 875px) {
       margin-bottom: 2.5rem;
     }
   }
@@ -153,15 +122,10 @@ export const EnterpriseContainer = styled.article`
     text-align: center;
   }
 
-  .more-information ul {
-    position: relative;
-  }
-
   .more-information li {
     list-style-type: none;
     position: relative;
     padding-left: 2.5rem;
-    margin-bottom: 0.5rem;
   }
 
   .more-information li:before {
@@ -169,7 +133,7 @@ export const EnterpriseContainer = styled.article`
     display: block;
     position: absolute;
     left: 0;
-    top: -2px;
+    top: -7px;
     width: 5px;
     height: 11px;
     border-width: 0 2px 2px 0;
