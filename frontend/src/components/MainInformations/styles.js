@@ -25,16 +25,21 @@ export const StylesMainContainer = styled.section`
     }
   }
 
+  .information figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+
+    @media (max-width: 1043px) {
+      margin-right: 0;
+      margin-bottom: 3rem;
+    }
+  }
+
   .information figure img {
-    margin-right: 5.0rem;
-    margin-bottom: 3.0rem;
     border-radius: 10px;
     box-shadow: 0 0 15px var(--section-item-border);
-
-    @media (max-width: 1043px){
-      margin-right: 0;
-      margin-bottom: 2rem;
-    }
 
     @media (max-width: 367px){
       width: calc(0.9 * 247px);
