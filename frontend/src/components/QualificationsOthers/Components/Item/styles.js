@@ -93,10 +93,6 @@ export const ItemContainer = styled.article`
     }
   }
 
-  .information .icons a {
-    outline: none;
-  }
-
   /* GitHub */
   .information .github a i {
     font-size: 30px;
