@@ -19,7 +19,7 @@ import './styles.css';
 export default function Home () {
   const containerReference = useRef(null);
 
-  document.title = 'Currículo Online';
+  document.title = 'Home';
 
   return (
     <>
