@@ -41,6 +41,16 @@ const ContainerQualificationsOthers = () => (
     />
 
     <Item
+      header2Classname="rocketseat-h2"
+      logo={rocketseatLogo}
+      alt="Rocketseat"
+      name="Rocketseat"
+      eventName="Maratona Discover - Aplicação “Dev.Finances”"
+      date="14/01/21 · 04/02/21"
+      githubUrl="https://github.com/zehguilherme/maratona-discover"
+    />
+
+    <Item
       header2Classname="senac-h2"
       logo={senacLogo}
       alt="Senac"
