@@ -25,6 +25,8 @@
 
 ## 🚀 Technologies
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/78009576f35a4a9dbe56be44f29d8724)](https://app.codacy.com/gh/zehguilherme/curriculum?utm_source=github.com&utm_medium=referral&utm_content=zehguilherme/curriculum&utm_campaign=Badge_Grade_Settings)
+
 ### Front-end
 
 - [ReactJS](https://pt-br.reactjs.org/)
