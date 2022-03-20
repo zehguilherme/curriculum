@@ -49,7 +49,9 @@ First of all you need to have `node` and `yarn`(or `npm`) installed on your mach
 
 Then you can clone the repository.
 
-`git clone https://github.com/zehguilherme/personal-curriculum`
+```code
+  git clone https://github.com/zehguilherme/personal-curriculum
+```
 
 Start the application
 
