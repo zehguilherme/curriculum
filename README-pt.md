@@ -49,7 +49,9 @@ Primeiro de tudo você precisa ter o `node` e `yarn`(ou `npm`) instalado na sua 
 
 Então você pode clonar o repositório.
 
-`git clone https://github.com/zehguilherme/personal-curriculum`
+```code
+git clone https://github.com/zehguilherme/personal-curriculum
+```
 
 Inicialize a aplicação
 
