@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 
 import { ReadProgressBarContainer } from './styles';
 
-const ReadProgressBar = ({ containerReference }) => {
+function ReadProgressBar ({ containerReference }) {
   const [readingProgress, setReadingProgress] = useState(0);
 
   const handleScroll = () => {
@@ -31,10 +31,10 @@ const ReadProgressBar = ({ containerReference }) => {
   });
 
   return (<ReadProgressBarContainer width={`${readingProgress}%`} />);
-};
+}
 
 ReadProgressBar.propTypes = {
-  containerReference: PropTypes.object.isRequired,
+  containerReference: PropTypes.string.isRequired,
 };
 
 export default ReadProgressBar;

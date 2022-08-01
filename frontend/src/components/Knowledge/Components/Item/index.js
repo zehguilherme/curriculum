@@ -1,4 +1,5 @@
 import React from 'react';
+
 import PropTypes from 'prop-types';
 
 import { ItemContainer } from './styles';
@@ -25,10 +26,10 @@ function Item ({
 }
 
 Item.propTypes = {
-  image: PropTypes.string
-  , imageAlt: PropTypes.string
-  , iconClassName: PropTypes.string
-  , title3: PropTypes.string,
+  image: PropTypes.string.isRequired
+  , imageAlt: PropTypes.string.isRequired
+  , iconClassName: PropTypes.string.isRequired
+  , title3: PropTypes.string.isRequired,
 };
 
 export default Item;
