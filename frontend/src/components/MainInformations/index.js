@@ -1,5 +1,5 @@
 /* eslint-disable no-mixed-operators */
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { StylesMainContainer } from './styles';
 
@@ -7,7 +7,7 @@ import Button from './Components/Button';
 
 import profileImg from '../../assets/profile.jpg';
 
-const ContainerMain = () => {
+function ContainerMain () {
   const [age, setAge] = useState(0);
 
   function ageCalculate () {
@@ -94,6 +94,6 @@ const ContainerMain = () => {
       </div>
     </StylesMainContainer>
   );
-};
+}
 
 export default ContainerMain;

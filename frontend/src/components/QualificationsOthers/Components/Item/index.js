@@ -1,5 +1,5 @@
-import React from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
 
 import { ItemContainer } from './styles';
 
@@ -105,15 +105,15 @@ Item.propTypes = {
   , alt: PropTypes.string.isRequired
   , name: PropTypes.string.isRequired
   , eventName: PropTypes.string.isRequired
-  , eventShortDescription: PropTypes.string
-  , eventFirstInformation: PropTypes.string
-  , eventSecondInformation: PropTypes.string
-  , eventThirdInformation: PropTypes.string
+  , eventShortDescription: PropTypes.string.isRequired
+  , eventFirstInformation: PropTypes.string.isRequired
+  , eventSecondInformation: PropTypes.string.isRequired
+  , eventThirdInformation: PropTypes.string.isRequired
   , date: PropTypes.string.isRequired
-  , fileUrl1: PropTypes.string
-  , fileUrl2: PropTypes.string
-  , fileUrl3: PropTypes.string
-  , githubUrl: PropTypes.string,
+  , fileUrl1: PropTypes.string.isRequired
+  , fileUrl2: PropTypes.string.isRequired
+  , fileUrl3: PropTypes.string.isRequired
+  , githubUrl: PropTypes.string.isRequired,
 };
 
 export default Item;

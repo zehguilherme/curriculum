@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 
 import { FaChevronDown } from 'react-icons/fa';
+
+import PropTypes from 'prop-types';
 
 import { EnterpriseContainer } from './styles';
 
@@ -62,7 +63,7 @@ function Enterprise ({
                   : { transition: 'transform 0.3s', transform: 'rotate(0deg)' }
               }
               className="icon"
-              onClick={handleShowMoreInformationFromEveryEnterprise}
+              onClick={handleShowMoreInformationFromEveryEnterprise()}
             />
           </div>
         )
@@ -133,12 +134,12 @@ Enterprise.propTypes = {
   , enterpriseName: PropTypes.string.isRequired
   , positionName: PropTypes.string.isRequired
   , date: PropTypes.string.isRequired
-  , moreInformation1: PropTypes.string
-  , item1: PropTypes.string
-  , item2: PropTypes.string
-  , item3: PropTypes.string
-  , item4: PropTypes.string
-  , item5: PropTypes.string,
+  , moreInformation1: PropTypes.string.isRequired
+  , item1: PropTypes.string.isRequired
+  , item2: PropTypes.string.isRequired
+  , item3: PropTypes.string.isRequired
+  , item4: PropTypes.string.isRequired
+  , item5: PropTypes.string.isRequired,
 };
 
 export default Enterprise;

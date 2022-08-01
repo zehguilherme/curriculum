@@ -3,16 +3,16 @@
 /* eslint-disable import/named */
 import React, { useRef } from 'react';
 
-import MainInformations from '../../components/MainInformations';
 import Education from '../../components/Education';
-import ProfessionalExperience from '../../components/ProfessionalExperience';
 import Knowledge from '../../components/Knowledge';
+import MainInformations from '../../components/MainInformations';
+import ProfessionalExperience from '../../components/ProfessionalExperience';
 import QualificationsOthers from '../../components/QualificationsOthers';
 import SocialNetworks from '../../components/SocialNetworks';
 
 import ReadProgressBar from '../../components/ReadProgressBar';
-import SideBar from '../../components/SideBar';
 import ScrollBackButton from '../../components/ScrollBackButton';
+import SideBar from '../../components/SideBar';
 
 import './styles.css';
 
