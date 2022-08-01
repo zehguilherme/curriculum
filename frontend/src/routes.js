@@ -1,19 +1,16 @@
 import React from 'react';
-import {
-  BrowserRouter, Redirect, Route, Switch,
-} from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Home from './pages/Home';
 import NotFoundPage from './pages/NotFoundPage';
 
-export default function Routes () {
+export default function MainRoutes () {
   return (
     <BrowserRouter>
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/404/" component={NotFoundPage} />
-        <Redirect to="/404/" />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/404" element={<NotFoundPage />} />
+      </Routes>
     </BrowserRouter>
   );
 }

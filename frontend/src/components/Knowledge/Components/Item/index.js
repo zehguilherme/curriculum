@@ -1,4 +1,5 @@
 import React from 'react';
+
 import PropTypes from 'prop-types';
 
 import { ItemContainer } from './styles';
@@ -29,6 +30,13 @@ Item.propTypes = {
   , imageAlt: PropTypes.string
   , iconClassName: PropTypes.string
   , title3: PropTypes.string,
+};
+
+Item.defaultProps = {
+  image: ''
+  , imageAlt: ''
+  , iconClassName: ''
+  , title3: '',
 };
 
 export default Item;

@@ -1,5 +1,5 @@
-import React from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
 
 import { ItemContainer } from './styles';
 
@@ -114,6 +114,17 @@ Item.propTypes = {
   , fileUrl2: PropTypes.string
   , fileUrl3: PropTypes.string
   , githubUrl: PropTypes.string,
+};
+
+Item.defaultProps = {
+  eventShortDescription: ''
+  , eventFirstInformation: ''
+  , eventSecondInformation: ''
+  , eventThirdInformation: ''
+  , fileUrl1: ''
+  , fileUrl2: ''
+  , fileUrl3: ''
+  , githubUrl: '',
 };
 
 export default Item;
