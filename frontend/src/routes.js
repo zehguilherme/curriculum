@@ -8,7 +8,7 @@ export default function MainRoutes () {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/404" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
