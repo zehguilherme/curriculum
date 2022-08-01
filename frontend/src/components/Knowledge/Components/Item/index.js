@@ -26,10 +26,17 @@ function Item ({
 }
 
 Item.propTypes = {
-  image: PropTypes.string.isRequired
-  , imageAlt: PropTypes.string.isRequired
-  , iconClassName: PropTypes.string.isRequired
-  , title3: PropTypes.string.isRequired,
+  image: PropTypes.string
+  , imageAlt: PropTypes.string
+  , iconClassName: PropTypes.string
+  , title3: PropTypes.string,
+};
+
+Item.defaultProps = {
+  image: ''
+  , imageAlt: ''
+  , iconClassName: ''
+  , title3: '',
 };
 
 export default Item;

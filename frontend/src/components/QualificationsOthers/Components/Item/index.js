@@ -105,15 +105,26 @@ Item.propTypes = {
   , alt: PropTypes.string.isRequired
   , name: PropTypes.string.isRequired
   , eventName: PropTypes.string.isRequired
-  , eventShortDescription: PropTypes.string.isRequired
-  , eventFirstInformation: PropTypes.string.isRequired
-  , eventSecondInformation: PropTypes.string.isRequired
-  , eventThirdInformation: PropTypes.string.isRequired
+  , eventShortDescription: PropTypes.string
+  , eventFirstInformation: PropTypes.string
+  , eventSecondInformation: PropTypes.string
+  , eventThirdInformation: PropTypes.string
   , date: PropTypes.string.isRequired
-  , fileUrl1: PropTypes.string.isRequired
-  , fileUrl2: PropTypes.string.isRequired
-  , fileUrl3: PropTypes.string.isRequired
-  , githubUrl: PropTypes.string.isRequired,
+  , fileUrl1: PropTypes.string
+  , fileUrl2: PropTypes.string
+  , fileUrl3: PropTypes.string
+  , githubUrl: PropTypes.string,
+};
+
+Item.defaultProps = {
+  eventShortDescription: ''
+  , eventFirstInformation: ''
+  , eventSecondInformation: ''
+  , eventThirdInformation: ''
+  , fileUrl1: ''
+  , fileUrl2: ''
+  , fileUrl3: ''
+  , githubUrl: '',
 };
 
 export default Item;
