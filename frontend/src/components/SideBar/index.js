@@ -14,7 +14,7 @@ function SideBar () {
       </span>
 
       <span className="github" title="Código Fonte do Projeto">
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/zehguilherme/personal-curriculum">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/zehguilherme/curriculum">
           <i className="fab fa-github" />
         </a>
       </span>
