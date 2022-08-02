@@ -49,23 +49,23 @@ export const ItemContainer = styled.article`
     }
   }
 
-  .rocketseat-h2 {
+  .purple {
     color: #9466FF;
   }
 
-  .alura-h2 {
+  .blue {
     color: #2A7AE4;
   }
 
-  .ez-devs-h2 {
+  .green {
     color: #0A9B7C;
   }
 
-  .unisagrado-h2 {
+  .red {
     color: #FF151F;
   }
 
-  .senac-h2 {
+  .orange {
     color: #F6931E;
   }
 
