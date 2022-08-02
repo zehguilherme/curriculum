@@ -4,8 +4,6 @@ import { StylesKnowledge } from './styles';
 
 import Item from './Components/Item';
 
-import svnLogo from '../../assets/svn-logo.png';
-
 function ContainerKnowledge () {
   return (
     <StylesKnowledge>
@@ -22,24 +20,13 @@ function ContainerKnowledge () {
 
         <Item iconClassName="devicon-react-original-wordmark colored" />
 
-        <Item iconClassName="devicon-mysql-plain-wordmark colored" />
-
-        <Item iconClassName="devicon-oracle-original colored" />
-
         <Item iconClassName="devicon-git-plain-wordmark colored" />
-
-        <Item iconClassName="devicon-github-original-wordmark colored" />
-
-        <Item
-          image={svnLogo}
-          imageAlt="SVN"
-        />
-
-        <Item iconClassName="devicon-cplusplus-line-wordmark colored" />
 
         <Item iconClassName="devicon-csharp-line colored" />
 
         <Item iconClassName="devicon-dot-net-plain-wordmark colored" />
+
+        <Item iconClassName="devicon-xamarin-original-wordmark colored" />
 
         <Item
           iconClassName="fas fa-comments"
