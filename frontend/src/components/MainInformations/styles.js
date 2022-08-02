@@ -102,18 +102,6 @@ export const StylesMainContainer = styled.section`
     text-align: center;
   }
 
-  .information .text .phone {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-
-    @media(max-width: 560px){
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-  }
-
   .information .text .address {
     display: flex;
     margin-top: 2.0rem;

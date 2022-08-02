@@ -63,21 +63,13 @@ function ContainerMain () {
             </span>
           </div>
 
-          <div className="phone">
-            <Button
-              phoneNumberHref="+5514981195569"
-              title="Ligar para celular"
-              iconClassName="fas fa-mobile-alt"
-              phoneNumber="(14) 98119-5569"
-            />
-
-            <Button
-              phoneNumberHref="+551432274085"
-              title="Ligar para telefone fixo"
-              iconClassName="fas fa-phone"
-              phoneNumber="(14) 3227-4085"
-            />
-          </div>
+          <Button
+            phoneNumberHref="+5514981195569"
+            title="Ligar para celular"
+            iconClassName="fas fa-mobile-alt"
+            className="phone"
+            phoneNumber="(14) 98119-5569"
+          />
 
           <div className="address">
             <i className="fas fa-map-marker-alt" />
