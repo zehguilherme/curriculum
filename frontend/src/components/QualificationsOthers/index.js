@@ -4,14 +4,12 @@ import { StylesQualificationsOthers } from './styles';
 
 import Item from './Components/Item';
 
-import aluraLogo from '../../assets/alura-logo.png';
+import curriculumLogo from '../../assets/curriculum-logo.svg';
 import ezdevsLogo from '../../assets/ezdevs.logo.png';
-import rocketseatLogo from '../../assets/rocketseat-logo.png';
 import senacLogo from '../../assets/senac-logo.jpg';
+import speedtestLogo from '../../assets/speedtest-logo.png';
 import unisagradoLogo from '../../assets/unisagrado-simple-logo.png';
 
-import sixthComputingJourney from '../../assets/documents/6-jornada-informatica.pdf';
-import seventhComputingJourney from '../../assets/documents/7-jornada-informatica.pdf';
 import certificatePresentationTcc from '../../assets/documents/certificado-apresentacao-tcc.pdf';
 import forumIc from '../../assets/documents/forum-ic.pdf';
 import tcc from '../../assets/documents/tcc.pdf';
@@ -22,39 +20,27 @@ function ContainerQualificationsOthers () {
       <h2>Qualificações e outras atividades</h2>
 
       <Item
-        header2Classname="rocketseat-h2"
-        logo={rocketseatLogo}
-        alt="Rocketseat"
-        name="Rocketseat"
-        eventName="Next Level Week 5 - Aplicação “Podcastr”"
-        date="19/04/21 · 23/04/21"
-        githubUrl="https://github.com/zehguilherme/next-level-week-5"
+        header2Classname="blue"
+        logo={speedtestLogo}
+        alt="Logo da empresa Speedtest"
+        eventName="Clone da interface do site “Speedtest”"
+        date="22/07/21 · Presente"
+        githubUrl="https://github.com/zehguilherme/speedtest-ui-clone"
       />
 
       <Item
-        header2Classname="rocketseat-h2"
-        logo={rocketseatLogo}
-        alt="Rocketseat"
-        name="Rocketseat"
-        eventName="Next Level Week 4 - Aplicação “Move.it”"
-        date="22/02/21 · 28/02/21"
-        githubUrl="https://github.com/zehguilherme/next-level-week-4"
+        header2Classname="blue"
+        logo={curriculumLogo}
+        alt=""
+        eventName="Criação de currículo online"
+        date="13/05/20 · Presente"
+        githubUrl="https://github.com/zehguilherme/curriculum"
       />
 
       <Item
-        header2Classname="rocketseat-h2"
-        logo={rocketseatLogo}
-        alt="Rocketseat"
-        name="Rocketseat"
-        eventName="Maratona Discover - Aplicação “Dev.Finances”"
-        date="14/01/21 · 04/02/21"
-        githubUrl="https://github.com/zehguilherme/maratona-discover"
-      />
-
-      <Item
-        header2Classname="senac-h2"
+        header2Classname="orange"
         logo={senacLogo}
-        alt="Senac"
+        alt="Logo da empresa Senac"
         name="Senac"
         eventName="Curso ”Programador de Dispositivos Móveis” pelo SENAC Bauru"
         eventShortDescription="Criação de
@@ -65,72 +51,9 @@ function ContainerQualificationsOthers () {
       />
 
       <Item
-        header2Classname="rocketseat-h2"
-        logo={rocketseatLogo}
-        alt="Rocketseat"
-        name="Rocketseat"
-        eventName="Next Level Week 3 - Aplicação “Happy”"
-        date="12/10/20 · 18/10/20"
-        githubUrl="https://github.com/zehguilherme/next-level-week-3"
-      />
-
-      <Item
-        header2Classname="rocketseat-h2"
-        logo={rocketseatLogo}
-        alt="Rocketseat"
-        name="Rocketseat"
-        eventName="Next Level Week 2 - Aplicação “Proffy”"
-        date="03/08/20 · 09/08/20"
-        githubUrl="https://github.com/zehguilherme/next-level-week-2"
-      />
-
-      <Item
-        header2Classname="alura-h2"
-        logo={aluraLogo}
-        alt="Alura"
-        name="Alura Cursos Online"
-        eventName="Imersão React - Aplicação com ReactJS"
-        date="27/07/20 · 31/07/20"
-        githubUrl="https://github.com/zehguilherme/imersao-react"
-      />
-
-      <Item
-        header2Classname="rocketseat-h2"
-        logo={rocketseatLogo}
-        alt="Rocketseat"
-        name="Rocketseat"
-        eventName="Next Level Week 1 - Aplicação “Ecoleta”"
-        date="01/06/20 · 07/06/20"
-        githubUrl="https://github.com/zehguilherme/next-level-week"
-      />
-
-      <Item
-        header2Classname="rocketseat-h2"
-        logo={rocketseatLogo}
-        alt="Rocketseat"
-        name="Rocketseat"
-        eventName="11ª Semana Omnistack - Aplicação “Be The Hero”"
-        date="23/03/20 · 29/03/20"
-        fileUrl1="https://storage.googleapis.com/golden-wind/semana-omnistack-11/jgtomaine@hotmail.com.pdf"
-        githubUrl="https://github.com/zehguilherme/semana-omnistack-11"
-      />
-
-      <Item
-        header2Classname="rocketseat-h2"
-        logo={rocketseatLogo}
-        alt="Rocketseat"
-        name="Rocketseat"
-        header3Classname="rocketseat-h3"
-        eventName="3ª MaratonaDev"
-        eventShortDescription="Aplicação web para cadastro de doadores de sangue"
-        date="17/02/20 · 19/02/20"
-        githubUrl="https://github.com/zehguilherme/maratona-dev3"
-      />
-
-      <Item
-        header2Classname="ez-devs-h2"
+        header2Classname="green"
         logo={ezdevsLogo}
-        alt="Ez.devs"
+        alt="Logo da empresa Speedtest Ez.devs"
         name="Ez.devs"
         eventName="2º Bootcamp - API para o aplicativo ”TinDev”"
         date="08/02/20"
@@ -138,19 +61,9 @@ function ContainerQualificationsOthers () {
       />
 
       <Item
-        header2Classname="rocketseat-h2"
-        logo={rocketseatLogo}
-        alt="Rocketseat"
-        name="Rocketseat"
-        eventName="10ª Semana OmniStack - Aplicação “DevRadar”"
-        date="13/01/20 · 17/01/20"
-        githubUrl="https://github.com/zehguilherme/semana-omnistack-10"
-      />
-
-      <Item
-        header2Classname="unisagrado-h2"
+        header2Classname="red"
         logo={unisagradoLogo}
-        alt="Unisagrado"
+        alt="Logo da empresa Unisagrado"
         name="Unisagrado"
         eventName="TCC “Modelagem 3D do Zoológico de Bauru”"
         eventFirstInformation="XXVI Fórum De Iniciação Científica;"
@@ -161,46 +74,6 @@ function ContainerQualificationsOthers () {
         fileUrl1={tcc}
         fileUrl2={forumIc}
         fileUrl3={certificatePresentationTcc}
-      />
-
-      <Item
-        header2Classname="unisagrado-h2"
-        logo={unisagradoLogo}
-        alt="Unisagrado"
-        name="Unisagrado"
-        eventName="8ª Jornada de Informática - Indústria 4"
-        date="10/05/18 · 11/05/18"
-      />
-
-      <Item
-        header2Classname="senac-h2"
-        logo={senacLogo}
-        alt="Senac"
-        name="Senac"
-        eventName="Curso de HTML5 e CSS3"
-        date="17/01/18 · 12/03/18"
-        githubUrl="https://github.com/zehguilherme/html5-css3"
-        fileUrl1="http://www1.intranet.sp.senac.br/senac_solution/pss/relatorios/certificados/NBAS/index.cfm?CRYPTALGID=f885ab1a-e751-11ea-b767-9f93a0890ad6&dt=2020-08-26-01.09.43.000000"
-      />
-
-      <Item
-        header2Classname="unisagrado-h2"
-        logo={unisagradoLogo}
-        alt="Unisagrado"
-        name="Unisagrado"
-        eventName="7ª Jornada de Informática - Games e Realidade Virtual"
-        date="11/05/17 · 12/05/17"
-        fileUrl1={seventhComputingJourney}
-      />
-
-      <Item
-        header2Classname="unisagrado-h2"
-        logo={unisagradoLogo}
-        alt="Unisagrado"
-        name="Unisagrado"
-        eventName="6ª Jornada de Informática - Games e Realidade Virtual"
-        date="02/05/16 · 03/05/16"
-        fileUrl1={sixthComputingJourney}
       />
     </StylesQualificationsOthers>
   );
