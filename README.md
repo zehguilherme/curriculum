@@ -6,15 +6,6 @@
   <img src="./frontend/assets/../src/assets/curriculum.png" alt="Imagem do Currículo">
 </div>
 
-<br/>
-
-<div align="center">
-  <img alt="GitHub" src="https://img.shields.io/github/license/zehguilherme/personal-curriculum">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/zehguilherme/personal-curriculum">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/zehguilherme/personal-curriculum">
-  <a href="https://www.codacy.com/gh/zehguilherme/curriculum/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zehguilherme/curriculum&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/a256180bdbda47059ba9c8449fbf0689"/></a>
-</div>
-
 <br>
 
 <div align="center">
