@@ -9,15 +9,6 @@
 <br>
 
 <div align="center">
-  <img alt="GitHub" src="https://img.shields.io/github/license/zehguilherme/personal-curriculum">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/zehguilherme/personal-curriculum">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/zehguilherme/personal-curriculum">
-  <a href="https://www.codacy.com/manual/zehguilherme/personal-curriculum?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zehguilherme/personal-curriculum&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/2aa04a8dca4e4813842831915cb4475a"/></a>
-</div>
-
-<br>
-
-<div align="center">
   <a href="README.md">English</a>
   ·
   <a href="README-pt.md">Português</a>
