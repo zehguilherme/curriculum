@@ -1,29 +1,20 @@
 <h1 align="center">
-  📑 Curriculum
+  📑 Currículo
 </h1>
 
 <div align="center">
   <img src="./frontend/assets/../src/assets/curriculum.png" alt="Imagem do Currículo">
 </div>
 
-<br/>
-
-<div align="center">
-  <img alt="GitHub" src="https://img.shields.io/github/license/zehguilherme/personal-curriculum">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/zehguilherme/personal-curriculum">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/zehguilherme/personal-curriculum">
-  <a href="https://www.codacy.com/gh/zehguilherme/curriculum/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zehguilherme/curriculum&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/a256180bdbda47059ba9c8449fbf0689"/></a>
-</div>
-
 <br>
 
 <div align="center">
-  <a href="README.md">English</a>
+  <a href="README-en.md">English</a>
   ·
-  <a href="README-pt.md">Português</a>
+  <a href="README.md">Português</a>
 </div>
 
-## 🚀 Technologies
+## 🚀 Tecnologias
 
 ### Front-end
 
@@ -35,43 +26,43 @@
 - [Google Fonts](https://fonts.google.com/)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
-- [prop-types](https://www.npmjs.com/package/prop-types) - Runtime type checking for React props and similar objects
+- [prop-types](https://www.npmjs.com/package/prop-types) - Verificação de tipos em tempo de execução para React props e objetos semelhantes
 
-## 🎨 Design used as inspiration: [Dribbble](https://dribbble.com/shots/9111243-Simple-Layout-CV-Curriculum-Vitae-Design?utm_source=Clipboard_Shot&utm_campaign=rdfariz&utm_content=Simple%20Layout%20CV%20-%20Curriculum%20Vitae%20Design&utm_medium=Social_Share)
+## 🎨 Design usado como inspiração: [Dribbble](https://dribbble.com/shots/9111243-Simple-Layout-CV-Curriculum-Vitae-Design?utm_source=Clipboard_Shot&utm_campaign=rdfariz&utm_content=Simple%20Layout%20CV%20-%20Curriculum%20Vitae%20Design&utm_medium=Social_Share)
 
-*Credits:* [Raden Fariz Insan Purnama](https://www.linkedin.com/in/rdfariz/)
+*Créditos:* [Raden Fariz Insan Purnama](https://www.linkedin.com/in/rdfariz/)
 
-## 🚀 Getting started
+## 🚀 Começando
 
-First of all you need to have `node` and `yarn`(or `npm`) installed on your machine.
+Primeiro de tudo você precisa ter o `node` e `yarn`(ou `npm`) instalado na sua máquina.
 
-*If you decide to use npm don't forget to delete `yarn.lock` in folders.*
+*Se você decidir usar o npm, não se esqueça de deletar `yarn.lock` nas pastas.*
 
-Then you can clone the repository.
+Então você pode clonar o repositório.
 
 ```code
-  git clone https://github.com/zehguilherme/personal-curriculum
+git clone https://github.com/zehguilherme/personal-curriculum
 ```
 
-Start the application
+Inicialize a aplicação
 
 1. `cd frontend`
-2. `yarn` or `npm install`
-3. `yarn start` or `npm run start`
+2. `yarn` ou `npm install`
+3. `yarn start` ou `npm run start`
 
-## 🤔 How to contribute
+## 🤔 Como contribuir
 
-1. Fork the project;
-2. Create your feature branch: `git checkout -b my-new-feature`;
-3. Commit your changes: `git commit -m 'feat: Add some feature'`;
-4. Push to the branch: `git push origin my-new-feature`;
-5. Create a new Pull Request;
-6. After the merge of your pull request is done, you can delete your branch.
+1. Faça um fork desse repositório;
+2. Crie uma branch com a sua feature: `git checkout -b minha-feature`;
+3. Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+4. Faça push para a sua branch: `git push origin minha-feature`;
+5. Crie um pull request;
+6. Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-## 📝 License
+## 📝 Licença
 
-This project is under the MIT license. See the  [license](LICENSE) for more informations.
+Este projeto está sob a licença MIT. Veja a [licença](LICENSE) para mais informações.
 
 ---
 
-Made with 💟 by José Guilherme Paro Monteiro Tomaine 👋 [Talk to me!](https://www.linkedin.com/in/jos%C3%A9-guilherme-paro-monteiro-tomaine/)
+Feito com 💟 por José Guilherme Paro Monteiro Tomaine 👋 [Fale comigo!](https://www.linkedin.com/in/jos%C3%A9-guilherme-paro-monteiro-tomaine/)
