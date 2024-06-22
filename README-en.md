@@ -18,17 +18,17 @@
 
 ### Front-end
 
-- [ReactJS](https://pt-br.reactjs.org/)
-- [React Icons](https://react-icons.github.io/react-icons/)
-- [Devicon](https://devicons.github.io/devicon/)
-- [Font Awesome](https://fontawesome.com/)
-- [Styled Components](https://styled-components.com/)
-- [Google Fonts](https://fonts.google.com/)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
+- [ReactJS](https://pt-br.reactjs.org/) - Library for building interfaces using components
+- [React Icons](https://react-icons.github.io/react-icons/) - Various icons
+- [Devicon](https://devicons.github.io/devicon/) - Various icons related to programming languages, design and development tools
+- [Font Awesome](https://fontawesome.com/) - Icon library
+- [Styled Components](https://styled-components.com/) - Styling Library
+- [Google Fonts](https://fonts.google.com/) - Library containing various fonts
 - [prop-types](https://www.npmjs.com/package/prop-types) - Runtime type checking for React props and similar objects
 
-## 🎨 Design used as inspiration: [Dribbble](https://dribbble.com/shots/9111243-Simple-Layout-CV-Curriculum-Vitae-Design?utm_source=Clipboard_Shot&utm_campaign=rdfariz&utm_content=Simple%20Layout%20CV%20-%20Curriculum%20Vitae%20Design&utm_medium=Social_Share)
+#### 🎨 Design
+
+- [Clique here](https://dribbble.com/shots/9111243-Simple-Layout-CV-Curriculum-Vitae-Design?utm_source=Clipboard_Shot&utm_campaign=rdfariz&utm_content=Simple%20Layout%20CV%20-%20Curriculum%20Vitae%20Design&utm_medium=Social_Share) to view.
 
 *Credits:* [Raden Fariz Insan Purnama](https://www.linkedin.com/in/rdfariz/)
 
@@ -58,10 +58,6 @@ Start the application
 4. Push to the branch: `git push origin my-new-feature`;
 5. Create a new Pull Request;
 6. After the merge of your pull request is done, you can delete your branch.
-
-## 📝 License
-
-This project is under the MIT license. See the  [license](LICENSE) for more informations.
 
 ---
 
