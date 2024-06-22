@@ -18,17 +18,17 @@
 
 ### Front-end
 
-- [ReactJS](https://pt-br.reactjs.org/)
-- [React Icons](https://react-icons.github.io/react-icons/)
-- [Devicon](https://devicons.github.io/devicon/)
-- [Font Awesome](https://fontawesome.com/)
-- [Styled Components](https://styled-components.com/)
-- [Google Fonts](https://fonts.google.com/)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
+- [ReactJS](https://pt-br.reactjs.org/) - Biblioteca para construção de interfaces usando componentes
+- [React Icons](https://react-icons.github.io/react-icons/) - Ícones diversos
+- [Devicon](https://devicons.github.io/devicon/) - Ícones diversos relacionados à linguagens de programação, design e ferramentas de desenvolvimento
+- [Font Awesome](https://fontawesome.com/) - Biblioteca de ícones
+- [Styled Components](https://styled-components.com/) - Biblioteca de estilização
+- [Google Fonts](https://fonts.google.com/) - Biblioteca contendo diversas fontes
 - [prop-types](https://www.npmjs.com/package/prop-types) - Verificação de tipos em tempo de execução para React props e objetos semelhantes
 
-## 🎨 Design usado como inspiração: [Dribbble](https://dribbble.com/shots/9111243-Simple-Layout-CV-Curriculum-Vitae-Design?utm_source=Clipboard_Shot&utm_campaign=rdfariz&utm_content=Simple%20Layout%20CV%20-%20Curriculum%20Vitae%20Design&utm_medium=Social_Share)
+#### 🎨 Design
+
+- [Clique aqui](https://dribbble.com/shots/9111243-Simple-Layout-CV-Curriculum-Vitae-Design?utm_source=Clipboard_Shot&utm_campaign=rdfariz&utm_content=Simple%20Layout%20CV%20-%20Curriculum%20Vitae%20Design&utm_medium=Social_Share) para visualizar.
 
 *Créditos:* [Raden Fariz Insan Purnama](https://www.linkedin.com/in/rdfariz/)
 
@@ -58,10 +58,6 @@ Inicialize a aplicação
 4. Faça push para a sua branch: `git push origin minha-feature`;
 5. Crie um pull request;
 6. Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja a [licença](LICENSE) para mais informações.
 
 ---
 
