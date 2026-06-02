@@ -30,13 +30,11 @@
 
 - [Clique aqui](https://dribbble.com/shots/9111243-Simple-Layout-CV-Curriculum-Vitae-Design?utm_source=Clipboard_Shot&utm_campaign=rdfariz&utm_content=Simple%20Layout%20CV%20-%20Curriculum%20Vitae%20Design&utm_medium=Social_Share) para visualizar.
 
-*Créditos:* [Raden Fariz Insan Purnama](https://www.linkedin.com/in/rdfariz/)
+_Créditos:_ [Raden Fariz Insan Purnama](https://www.linkedin.com/in/rdfariz/)
 
 ## 🚀 Começando
 
-Primeiro de tudo você precisa ter o `node` e `yarn`(ou `npm`) instalado na sua máquina.
-
-*Se você decidir usar o npm, não se esqueça de deletar `yarn.lock` nas pastas.*
+Primeiro de tudo você precisa ter o [Node.js](https://nodejs.org/) e [npm](https://www.npmjs.com/) instalado na sua máquina.
 
 Então você pode clonar o repositório.
 
@@ -47,8 +45,8 @@ git clone https://github.com/zehguilherme/personal-curriculum
 Inicialize a aplicação
 
 1. `cd frontend`
-2. `yarn` ou `npm install`
-3. `yarn start` ou `npm run start`
+2. `npm install`
+3. `npm start`
 
 ## 🤔 Como contribuir
 
