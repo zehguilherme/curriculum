@@ -30,13 +30,11 @@
 
 - [Clique here](https://dribbble.com/shots/9111243-Simple-Layout-CV-Curriculum-Vitae-Design?utm_source=Clipboard_Shot&utm_campaign=rdfariz&utm_content=Simple%20Layout%20CV%20-%20Curriculum%20Vitae%20Design&utm_medium=Social_Share) to view.
 
-*Credits:* [Raden Fariz Insan Purnama](https://www.linkedin.com/in/rdfariz/)
+_Credits:_ [Raden Fariz Insan Purnama](https://www.linkedin.com/in/rdfariz/)
 
 ## 🚀 Getting started
 
-First of all you need to have `node` and `yarn`(or `npm`) installed on your machine.
-
-*If you decide to use npm don't forget to delete `yarn.lock` in folders.*
+First of all you need to have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine.
 
 Then you can clone the repository.
 
@@ -47,8 +45,8 @@ Then you can clone the repository.
 Start the application
 
 1. `cd frontend`
-2. `yarn` or `npm install`
-3. `yarn start` or `npm run start`
+2. `npm install`
+3. `npm start`
 
 ## 🤔 How to contribute
 
